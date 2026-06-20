@@ -1,0 +1,250 @@
+{"trace_id": 0, "source_id": 8, "events": ["open", "fstat", "write", "write", "fstat", "close"], "compromised": false}
+{"trace_id": 1, "source_id": 2, "events": ["fork", "getpid", "wait", "exit"], "compromised": false}
+{"trace_id": 2, "source_id": 9, "events": ["fork", "exec", "wait", "exit"], "compromised": true}
+{"trace_id": 3, "source_id": 0, "events": ["open", "write", "fstat", "fstat", "close"], "compromised": false}
+{"trace_id": 4, "source_id": 4, "events": ["mmap", "munmap"], "compromised": true}
+{"trace_id": 5, "source_id": 9, "events": ["mmap", "mprotect", "munmap"], "compromised": true}
+{"trace_id": 6, "source_id": 7, "events": ["socket", "connect", "send", "recv", "send", "send", "shutdown"], "compromised": false}
+{"trace_id": 7, "source_id": 1, "events": ["mmap", "mlock", "mlock", "mprotect", "munmap"], "compromised": false}
+{"trace_id": 8, "source_id": 2, "events": ["mmap", "mlock", "mlock", "mprotect", "munmap"], "compromised": false}
+{"trace_id": 9, "source_id": 6, "events": ["open", "fstat", "close"], "compromised": false}
+{"trace_id": 10, "source_id": 5, "events": ["socket", "connect", "recv", "recv", "send", "shutdown"], "compromised": false}
+{"trace_id": 11, "source_id": 2, "events": ["mmap", "mlock", "mlock", "munmap"], "compromised": false}
+{"trace_id": 12, "source_id": 8, "events": ["open", "lseek", "write", "fstat", "close"], "compromised": false}
+{"trace_id": 13, "source_id": 3, "events": ["socket", "bind", "listen", "accept", "recv", "recv", "shutdown"], "compromised": false}
+{"trace_id": 14, "source_id": 8, "events": ["exit", "signal", "getppid", "getppid", "getppid"], "compromised": false}
+{"trace_id": 15, "source_id": 2, "events": ["socket", "connect", "send", "recv", "shutdown"], "compromised": false}
+{"trace_id": 16, "source_id": 2, "events": ["open", "write", "write", "write", "write", "fstat", "read", "fstat", "fstat", "close"], "compromised": false}
+{"trace_id": 17, "source_id": 8, "events": ["socket", "bind", "listen", "accept", "send", "shutdown"], "compromised": false}
+{"trace_id": 18, "source_id": 0, "events": ["socket", "connect", "send", "send", "send", "shutdown"], "compromised": false}
+{"trace_id": 19, "source_id": 8, "events": ["open", "fstat", "read", "write", "read", "write", "fstat", "close"], "compromised": false}
+{"trace_id": 20, "source_id": 6, "events": ["socket", "connect", "send", "recv", "send", "shutdown"], "compromised": false}
+{"trace_id": 21, "source_id": 7, "events": ["open", "fstat", "close"], "compromised": false}
+{"trace_id": 22, "source_id": 5, "events": ["mmap", "munmap"], "compromised": false}
+{"trace_id": 23, "source_id": 0, "events": ["open", "read", "read", "close"], "compromised": false}
+{"trace_id": 24, "source_id": 7, "events": ["wait", "exec", "getppid"], "compromised": false}
+{"trace_id": 25, "source_id": 1, "events": ["socket", "connect", "send", "send", "recv", "recv", "shutdown"], "compromised": false}
+{"trace_id": 26, "source_id": 0, "events": ["fork", "exec", "wait", "exit"], "compromised": false}
+{"trace_id": 27, "source_id": 1, "events": ["mmap", "mprotect", "mprotect", "mlock", "munmap"], "compromised": false}
+{"trace_id": 28, "source_id": 8, "events": ["socket", "bind", "listen", "accept", "send", "recv", "shutdown"], "compromised": false}
+{"trace_id": 29, "source_id": 3, "events": ["socket", "connect", "recv", "send", "send", "recv", "shutdown"], "compromised": false}
+{"trace_id": 30, "source_id": 5, "events": ["fork", "getpid", "wait", "exit"], "compromised": false}
+{"trace_id": 31, "source_id": 8, "events": ["mmap", "mlock", "mlock", "mprotect", "munmap"], "compromised": false}
+{"trace_id": 32, "source_id": 5, "events": ["mmap", "mprotect", "munmap"], "compromised": false}
+{"trace_id": 33, "source_id": 7, "events": ["open", "lseek", "lseek", "close"], "compromised": false}
+{"trace_id": 34, "source_id": 6, "events": ["mmap", "mlock", "munmap"], "compromised": false}
+{"trace_id": 35, "source_id": 2, "events": ["open", "read", "write", "read", "lseek", "fstat", "fstat", "lseek", "close"], "compromised": false}
+{"trace_id": 36, "source_id": 5, "events": ["socket", "connect", "recv", "shutdown"], "compromised": false}
+{"trace_id": 37, "source_id": 2, "events": ["getppid", "exec", "getpid", "getpid", "signal"], "compromised": false}
+{"trace_id": 38, "source_id": 1, "events": ["mmap", "mlock", "mprotect", "munmap"], "compromised": false}
+{"trace_id": 39, "source_id": 4, "events": ["socket", "bind", "listen", "accept", "recv", "send", "recv", "shutdown"], "compromised": true}
+{"trace_id": 40, "source_id": 9, "events": ["fork", "getpid", "wait", "exit"], "compromised": true}
+{"trace_id": 41, "source_id": 5, "events": ["socket", "connect", "send", "send", "shutdown"], "compromised": false}
+{"trace_id": 42, "source_id": 8, "events": ["socket", "bind", "listen", "accept", "recv", "send", "send", "shutdown"], "compromised": false}
+{"trace_id": 43, "source_id": 8, "events": ["socket", "bind", "listen", "accept", "send", "send", "send", "shutdown"], "compromised": false}
+{"trace_id": 44, "source_id": 0, "events": ["mmap", "mprotect", "mlock", "munmap"], "compromised": false}
+{"trace_id": 45, "source_id": 7, "events": ["socket", "connect", "recv", "recv", "shutdown"], "compromised": false}
+{"trace_id": 46, "source_id": 7, "events": ["socket", "connect", "recv", "send", "shutdown"], "compromised": false}
+{"trace_id": 47, "source_id": 6, "events": ["open", "write", "lseek", "fstat", "read", "write", "fstat", "close"], "compromised": false}
+{"trace_id": 48, "source_id": 9, "events": ["mmap", "munmap"], "compromised": true}
+{"trace_id": 49, "source_id": 9, "events": ["open", "fstat", "close"], "compromised": true}
+{"trace_id": 50, "source_id": 3, "events": ["fork", "getpid", "wait", "exit"], "compromised": false}
+{"trace_id": 51, "source_id": 1, "events": ["open", "fstat", "fstat", "lseek", "fstat", "fstat", "fstat", "close"], "compromised": false}
+{"trace_id": 52, "source_id": 5, "events": ["mmap", "mprotect", "mprotect", "mprotect", "munmap"], "compromised": false}
+{"trace_id": 53, "source_id": 2, "events": ["mmap", "mprotect", "mprotect", "mprotect", "munmap"], "compromised": false}
+{"trace_id": 54, "source_id": 1, "events": ["mmap", "mprotect", "mprotect", "mlock", "munmap"], "compromised": false}
+{"trace_id": 55, "source_id": 9, "events": ["open", "read", "read", "lseek", "lseek", "read", "write", "read", "close"], "compromised": true}
+{"trace_id": 56, "source_id": 7, "events": ["socket", "bind", "listen", "accept", "recv", "recv", "recv", "shutdown"], "compromised": false}
+{"trace_id": 57, "source_id": 3, "events": ["open", "write", "fstat", "read", "close"], "compromised": false}
+{"trace_id": 58, "source_id": 5, "events": ["socket", "connect", "send", "recv", "shutdown"], "compromised": false}
+{"trace_id": 59, "source_id": 8, "events": ["open", "lseek", "read", "close"], "compromised": false}
+{"trace_id": 60, "source_id": 0, "events": ["open", "fstat", "lseek", "fstat", "lseek", "fstat", "fstat", "write", "close"], "compromised": false}
+{"trace_id": 61, "source_id": 2, "events": ["signal", "exit", "getppid", "exit", "exec"], "compromised": false}
+{"trace_id": 62, "source_id": 4, "events": ["socket", "bind", "listen", "accept", "recv", "send", "recv", "recv", "shutdown"], "compromised": true}
+{"trace_id": 63, "source_id": 2, "events": ["open", "lseek", "read", "write", "read", "lseek", "read", "read", "write", "close"], "compromised": false}
+{"trace_id": 64, "source_id": 6, "events": ["open", "fstat", "read", "read", "write", "close"], "compromised": false}
+{"trace_id": 65, "source_id": 5, "events": ["open", "write", "write", "fstat", "read", "lseek", "close"], "compromised": false}
+{"trace_id": 66, "source_id": 2, "events": ["mmap", "munmap"], "compromised": false}
+{"trace_id": 67, "source_id": 3, "events": ["mmap", "munmap"], "compromised": false}
+{"trace_id": 68, "source_id": 1, "events": ["socket", "bind", "listen", "accept", "send", "recv", "recv", "recv", "shutdown"], "compromised": false}
+{"trace_id": 69, "source_id": 2, "events": ["open", "read", "write", "close"], "compromised": false}
+{"trace_id": 70, "source_id": 5, "events": ["socket", "bind", "listen", "accept", "send", "send", "recv", "shutdown"], "compromised": false}
+{"trace_id": 71, "source_id": 4, "events": ["mmap", "mprotect", "munmap"], "compromised": true}
+{"trace_id": 72, "source_id": 6, "events": ["socket", "bind", "listen", "accept", "recv", "shutdown"], "compromised": false}
+{"trace_id": 73, "source_id": 7, "events": ["mmap", "munmap"], "compromised": false}
+{"trace_id": 74, "source_id": 4, "events": ["socket", "bind", "listen", "accept", "recv", "recv", "send", "shutdown"], "compromised": true}
+{"trace_id": 75, "source_id": 4, "events": ["open", "write", "write", "fstat", "fstat", "close"], "compromised": true}
+{"trace_id": 76, "source_id": 2, "events": ["open", "read", "lseek", "fstat", "fstat", "read", "close"], "compromised": false}
+{"trace_id": 77, "source_id": 9, "events": ["mmap", "munmap"], "compromised": true}
+{"trace_id": 78, "source_id": 6, "events": ["mmap", "mprotect", "munmap"], "compromised": false}
+{"trace_id": 79, "source_id": 7, "events": ["socket", "connect", "send", "shutdown"], "compromised": false}
+{"trace_id": 80, "source_id": 5, "events": ["fork", "getpid", "wait", "exit"], "compromised": false}
+{"trace_id": 81, "source_id": 2, "events": ["mmap", "munmap"], "compromised": false}
+{"trace_id": 82, "source_id": 5, "events": ["wait", "getpid", "exec"], "compromised": false}
+{"trace_id": 83, "source_id": 9, "events": ["getpid", "exit", "fork", "fork", "signal"], "compromised": true}
+{"trace_id": 84, "source_id": 0, "events": ["mmap", "mprotect", "mprotect", "munmap"], "compromised": false}
+{"trace_id": 85, "source_id": 5, "events": ["open", "lseek", "lseek", "fstat", "lseek", "write", "lseek", "read", "write", "close"], "compromised": false}
+{"trace_id": 86, "source_id": 1, "events": ["open", "read", "fstat", "read", "write", "lseek", "close"], "compromised": false}
+{"trace_id": 87, "source_id": 6, "events": ["mmap", "mlock", "munmap"], "compromised": false}
+{"trace_id": 88, "source_id": 5, "events": ["socket", "connect", "recv", "send", "recv", "recv", "shutdown"], "compromised": false}
+{"trace_id": 89, "source_id": 3, "events": ["fork", "getpid", "wait", "exit"], "compromised": false}
+{"trace_id": 90, "source_id": 3, "events": ["open", "read", "fstat", "read", "close"], "compromised": false}
+{"trace_id": 91, "source_id": 6, "events": ["open", "fstat", "fstat", "fstat", "close"], "compromised": false}
+{"trace_id": 92, "source_id": 1, "events": ["open", "read", "fstat", "close"], "compromised": false}
+{"trace_id": 93, "source_id": 6, "events": ["open", "fstat", "lseek", "fstat", "write", "read", "read", "close"], "compromised": false}
+{"trace_id": 94, "source_id": 4, "events": ["mmap", "mprotect", "mlock", "munmap"], "compromised": true}
+{"trace_id": 95, "source_id": 1, "events": ["open", "read", "lseek", "lseek", "write", "close"], "compromised": false}
+{"trace_id": 96, "source_id": 7, "events": ["open", "write", "write", "fstat", "lseek", "read", "close"], "compromised": false}
+{"trace_id": 97, "source_id": 8, "events": ["socket", "bind", "listen", "accept", "send", "send", "shutdown"], "compromised": false}
+{"trace_id": 98, "source_id": 1, "events": ["mmap", "munmap"], "compromised": false}
+{"trace_id": 99, "source_id": 3, "events": ["socket", "connect", "send", "send", "send", "send", "shutdown"], "compromised": false}
+{"trace_id": 100, "source_id": 3, "events": ["wait", "getpid", "signal"], "compromised": false}
+{"trace_id": 101, "source_id": 7, "events": ["exec", "signal", "getppid", "fork"], "compromised": false}
+{"trace_id": 102, "source_id": 4, "events": ["socket", "connect", "send", "recv", "send", "recv", "shutdown"], "compromised": true}
+{"trace_id": 103, "source_id": 8, "events": ["mmap", "mlock", "mprotect", "mlock", "munmap"], "compromised": false}
+{"trace_id": 104, "source_id": 0, "events": ["mmap", "mprotect", "mprotect", "munmap"], "compromised": false}
+{"trace_id": 105, "source_id": 9, "events": ["open", "fstat", "fstat", "lseek", "read", "fstat", "close"], "compromised": true}
+{"trace_id": 106, "source_id": 3, "events": ["fork", "exec", "wait", "exit"], "compromised": false}
+{"trace_id": 107, "source_id": 8, "events": ["fork", "exec", "exec", "exec", "wait"], "compromised": false}
+{"trace_id": 108, "source_id": 3, "events": ["socket", "bind", "listen", "accept", "send", "shutdown"], "compromised": false}
+{"trace_id": 109, "source_id": 0, "events": ["mmap", "mprotect", "mlock", "mlock", "munmap"], "compromised": false}
+{"trace_id": 110, "source_id": 0, "events": ["fork", "exec", "wait", "exit"], "compromised": false}
+{"trace_id": 111, "source_id": 0, "events": ["socket", "connect", "send", "send", "recv", "shutdown"], "compromised": false}
+{"trace_id": 112, "source_id": 8, "events": ["open", "read", "read", "read", "read", "fstat", "lseek", "read", "write", "close"], "compromised": false}
+{"trace_id": 113, "source_id": 9, "events": ["open", "read", "lseek", "fstat", "read", "read", "read", "read", "lseek", "close"], "compromised": true}
+{"trace_id": 114, "source_id": 6, "events": ["mmap", "mprotect", "mlock", "mprotect", "munmap"], "compromised": false}
+{"trace_id": 115, "source_id": 6, "events": ["open", "fstat", "fstat", "fstat", "read", "lseek", "read", "fstat", "lseek", "close"], "compromised": false}
+{"trace_id": 116, "source_id": 8, "events": ["fork", "exec", "wait", "exit"], "compromised": false}
+{"trace_id": 117, "source_id": 0, "events": ["open", "write", "lseek", "lseek", "fstat", "close"], "compromised": false}
+{"trace_id": 118, "source_id": 4, "events": ["mmap", "mprotect", "mprotect", "mprotect", "munmap"], "compromised": true}
+{"trace_id": 119, "source_id": 0, "events": ["open", "write", "close"], "compromised": false}
+{"trace_id": 120, "source_id": 1, "events": ["socket", "connect", "recv", "send", "send", "shutdown"], "compromised": false}
+{"trace_id": 121, "source_id": 4, "events": ["mmap", "mlock", "mlock", "munmap"], "compromised": true}
+{"trace_id": 122, "source_id": 7, "events": ["socket", "connect", "send", "send", "shutdown"], "compromised": false}
+{"trace_id": 123, "source_id": 3, "events": ["open", "lseek", "write", "write", "write", "read", "lseek", "write", "close"], "compromised": false}
+{"trace_id": 124, "source_id": 7, "events": ["mmap", "mlock", "mlock", "mlock", "munmap"], "compromised": false}
+{"trace_id": 125, "source_id": 3, "events": ["mmap", "mprotect", "mprotect", "munmap"], "compromised": false}
+{"trace_id": 126, "source_id": 4, "events": ["mmap", "munmap"], "compromised": true}
+{"trace_id": 127, "source_id": 8, "events": ["mmap", "mprotect", "munmap"], "compromised": false}
+{"trace_id": 128, "source_id": 1, "events": ["getpid", "exec", "exec", "exit", "getppid"], "compromised": false}
+{"trace_id": 129, "source_id": 7, "events": ["socket", "connect", "send", "recv", "send", "send", "shutdown"], "compromised": false}
+{"trace_id": 130, "source_id": 3, "events": ["socket", "bind", "listen", "accept", "send", "send", "send", "shutdown"], "compromised": false}
+{"trace_id": 131, "source_id": 6, "events": ["socket", "bind", "listen", "accept", "send", "send", "send", "shutdown"], "compromised": false}
+{"trace_id": 132, "source_id": 4, "events": ["fork", "exec", "wait", "exit"], "compromised": true}
+{"trace_id": 133, "source_id": 6, "events": ["socket", "connect", "send", "send", "send", "shutdown"], "compromised": false}
+{"trace_id": 134, "source_id": 1, "events": ["open", "lseek", "read", "read", "close"], "compromised": false}
+{"trace_id": 135, "source_id": 1, "events": ["fork", "exec", "wait", "exit"], "compromised": false}
+{"trace_id": 136, "source_id": 7, "events": ["socket", "connect", "recv", "send", "recv", "shutdown"], "compromised": false}
+{"trace_id": 137, "source_id": 9, "events": ["socket", "connect", "send", "send", "send", "send", "shutdown"], "compromised": true}
+{"trace_id": 138, "source_id": 2, "events": ["fork", "getpid", "wait", "exit"], "compromised": false}
+{"trace_id": 139, "source_id": 6, "events": ["socket", "bind", "listen", "accept", "send", "send", "send", "recv", "shutdown"], "compromised": false}
+{"trace_id": 140, "source_id": 7, "events": ["fork", "exec", "wait", "exit"], "compromised": false}
+{"trace_id": 141, "source_id": 5, "events": ["socket", "connect", "send", "send", "recv", "send", "shutdown"], "compromised": false}
+{"trace_id": 142, "source_id": 1, "events": ["wait", "exit", "getpid", "exit", "exec", "wait"], "compromised": false}
+{"trace_id": 143, "source_id": 4, "events": ["socket", "connect", "recv", "recv", "recv", "recv", "shutdown"], "compromised": true}
+{"trace_id": 144, "source_id": 9, "events": ["open", "write", "write", "fstat", "write", "close"], "compromised": true}
+{"trace_id": 145, "source_id": 0, "events": ["mmap", "mlock", "munmap"], "compromised": false}
+{"trace_id": 146, "source_id": 1, "events": ["mmap", "mprotect", "mlock", "mlock", "munmap"], "compromised": false}
+{"trace_id": 147, "source_id": 0, "events": ["open", "read", "lseek", "fstat", "close"], "compromised": false}
+{"trace_id": 148, "source_id": 9, "events": ["socket", "bind", "listen", "accept", "recv", "shutdown"], "compromised": true}
+{"trace_id": 149, "source_id": 0, "events": ["socket", "bind", "listen", "accept", "recv", "recv", "recv", "recv", "shutdown"], "compromised": false}
+{"trace_id": 150, "source_id": 5, "events": ["socket", "bind", "listen", "accept", "send", "shutdown"], "compromised": false}
+{"trace_id": 151, "source_id": 4, "events": ["mmap", "mlock", "munmap"], "compromised": true}
+{"trace_id": 152, "source_id": 4, "events": ["open", "read", "lseek", "read", "lseek", "write", "read", "close"], "compromised": true}
+{"trace_id": 153, "source_id": 2, "events": ["open", "lseek", "read", "close"], "compromised": false}
+{"trace_id": 154, "source_id": 6, "events": ["fork", "getpid", "wait", "exit"], "compromised": false}
+{"trace_id": 155, "source_id": 9, "events": ["socket", "bind", "listen", "accept", "send", "send", "recv", "shutdown"], "compromised": true}
+{"trace_id": 156, "source_id": 0, "events": ["open", "lseek", "lseek", "fstat", "fstat", "read", "close"], "compromised": false}
+{"trace_id": 157, "source_id": 2, "events": ["mmap", "mlock", "munmap"], "compromised": false}
+{"trace_id": 158, "source_id": 2, "events": ["fork", "exec", "wait", "exit"], "compromised": false}
+{"trace_id": 159, "source_id": 1, "events": ["mmap", "mlock", "munmap"], "compromised": false}
+{"trace_id": 160, "source_id": 3, "events": ["mmap", "mprotect", "mlock", "munmap"], "compromised": false}
+{"trace_id": 161, "source_id": 3, "events": ["fork", "getpid", "wait", "exit"], "compromised": false}
+{"trace_id": 162, "source_id": 7, "events": ["fork", "exec", "wait", "exit"], "compromised": false}
+{"trace_id": 163, "source_id": 9, "events": ["socket", "bind", "listen", "accept", "recv", "send", "shutdown"], "compromised": true}
+{"trace_id": 164, "source_id": 3, "events": ["mmap", "mlock", "mprotect", "munmap"], "compromised": false}
+{"trace_id": 165, "source_id": 5, "events": ["mmap", "mlock", "mlock", "mlock", "munmap"], "compromised": false}
+{"trace_id": 166, "source_id": 1, "events": ["open", "write", "close"], "compromised": false}
+{"trace_id": 167, "source_id": 5, "events": ["getpid", "getppid", "signal", "getpid"], "compromised": false}
+{"trace_id": 168, "source_id": 0, "events": ["mmap", "mprotect", "mlock", "mprotect", "munmap"], "compromised": false}
+{"trace_id": 169, "source_id": 6, "events": ["mmap", "mlock", "munmap"], "compromised": false}
+{"trace_id": 170, "source_id": 3, "events": ["open", "fstat", "lseek", "read", "write", "read", "write", "close"], "compromised": false}
+{"trace_id": 171, "source_id": 8, "events": ["open", "read", "write", "write", "read", "fstat", "lseek", "write", "write", "close"], "compromised": false}
+{"trace_id": 172, "source_id": 7, "events": ["socket", "connect", "recv", "shutdown"], "compromised": false}
+{"trace_id": 173, "source_id": 9, "events": ["open", "read", "write", "lseek", "fstat", "fstat", "write", "close"], "compromised": true}
+{"trace_id": 174, "source_id": 8, "events": ["open", "fstat", "fstat", "read", "close"], "compromised": false}
+{"trace_id": 175, "source_id": 7, "events": ["mmap", "mprotect", "munmap"], "compromised": false}
+{"trace_id": 176, "source_id": 7, "events": ["fork", "getpid", "wait", "exit"], "compromised": false}
+{"trace_id": 177, "source_id": 3, "events": ["getpid", "exec", "getpid", "getppid"], "compromised": false}
+{"trace_id": 178, "source_id": 8, "events": ["mmap", "mprotect", "mprotect", "munmap"], "compromised": false}
+{"trace_id": 179, "source_id": 0, "events": ["fork", "getpid", "wait", "exit"], "compromised": false}
+{"trace_id": 180, "source_id": 9, "events": ["exit", "exit", "exit", "getpid", "fork", "getppid"], "compromised": true}
+{"trace_id": 181, "source_id": 8, "events": ["open", "fstat", "lseek", "lseek", "fstat", "write", "close"], "compromised": false}
+{"trace_id": 182, "source_id": 4, "events": ["mmap", "mprotect", "munmap"], "compromised": true}
+{"trace_id": 183, "source_id": 2, "events": ["mmap", "mlock", "mprotect", "mprotect", "munmap"], "compromised": false}
+{"trace_id": 184, "source_id": 2, "events": ["mmap", "munmap"], "compromised": false}
+{"trace_id": 185, "source_id": 9, "events": ["wait", "getppid", "getpid"], "compromised": true}
+{"trace_id": 186, "source_id": 1, "events": ["socket", "connect", "send", "shutdown"], "compromised": false}
+{"trace_id": 187, "source_id": 2, "events": ["mmap", "mprotect", "mlock", "mprotect", "munmap"], "compromised": false}
+{"trace_id": 188, "source_id": 1, "events": ["open", "fstat", "fstat", "write", "lseek", "write", "read", "close"], "compromised": false}
+{"trace_id": 189, "source_id": 6, "events": ["mmap", "munmap"], "compromised": false}
+{"trace_id": 190, "source_id": 6, "events": ["open", "fstat", "lseek", "fstat", "write", "fstat", "read", "read", "lseek", "close"], "compromised": false}
+{"trace_id": 191, "source_id": 3, "events": ["open", "lseek", "fstat", "fstat", "close"], "compromised": false}
+{"trace_id": 192, "source_id": 7, "events": ["mmap", "munmap"], "compromised": false}
+{"trace_id": 193, "source_id": 4, "events": ["open", "fstat", "write", "fstat", "lseek", "close"], "compromised": true}
+{"trace_id": 194, "source_id": 1, "events": ["fork", "exec", "wait", "exit"], "compromised": false}
+{"trace_id": 195, "source_id": 2, "events": ["open", "lseek", "read", "fstat", "close"], "compromised": false}
+{"trace_id": 196, "source_id": 9, "events": ["fork", "exec", "wait", "exit"], "compromised": true}
+{"trace_id": 197, "source_id": 8, "events": ["socket", "bind", "listen", "accept", "send", "send", "send", "shutdown"], "compromised": false}
+{"trace_id": 198, "source_id": 0, "events": ["fork", "exec", "wait", "exit"], "compromised": false}
+{"trace_id": 199, "source_id": 5, "events": ["open", "lseek", "fstat", "read", "read", "read", "fstat", "write", "close"], "compromised": false}
+{"trace_id": 200, "source_id": 0, "events": ["fork", "exec", "wait", "exit"], "compromised": false}
+{"trace_id": 201, "source_id": 4, "events": ["fork", "getpid", "wait", "exit"], "compromised": true}
+{"trace_id": 202, "source_id": 2, "events": ["open", "lseek", "close"], "compromised": false}
+{"trace_id": 203, "source_id": 1, "events": ["exec", "fork"], "compromised": false}
+{"trace_id": 204, "source_id": 6, "events": ["exit", "getpid"], "compromised": false}
+{"trace_id": 205, "source_id": 9, "events": ["open", "lseek", "write", "write", "fstat", "fstat", "read", "close"], "compromised": true}
+{"trace_id": 206, "source_id": 0, "events": ["fork", "getpid", "wait", "exit"], "compromised": false}
+{"trace_id": 207, "source_id": 3, "events": ["socket", "bind", "listen", "accept", "recv", "send", "recv", "send", "shutdown"], "compromised": false}
+{"trace_id": 208, "source_id": 6, "events": ["mmap", "mprotect", "munmap"], "compromised": false}
+{"trace_id": 209, "source_id": 4, "events": ["socket", "connect", "send", "send", "send", "shutdown"], "compromised": true}
+{"trace_id": 210, "source_id": 4, "events": ["mmap", "mlock", "mprotect", "munmap"], "compromised": true}
+{"trace_id": 211, "source_id": 7, "events": ["fork", "exec", "wait", "exit"], "compromised": false}
+{"trace_id": 212, "source_id": 3, "events": ["socket", "connect", "send", "recv", "send", "recv", "shutdown"], "compromised": false}
+{"trace_id": 213, "source_id": 9, "events": ["mmap", "munmap"], "compromised": true}
+{"trace_id": 214, "source_id": 5, "events": ["socket", "bind", "listen", "accept", "recv", "send", "send", "send", "shutdown"], "compromised": false}
+{"trace_id": 215, "source_id": 7, "events": ["open", "lseek", "write", "close"], "compromised": false}
+{"trace_id": 216, "source_id": 2, "events": ["mmap", "mprotect", "munmap"], "compromised": false}
+{"trace_id": 217, "source_id": 0, "events": ["open", "lseek", "fstat", "lseek", "close"], "compromised": false}
+{"trace_id": 218, "source_id": 8, "events": ["fork", "exec", "wait", "exit"], "compromised": false}
+{"trace_id": 219, "source_id": 3, "events": ["open", "fstat", "lseek", "write", "lseek", "close"], "compromised": false}
+{"trace_id": 220, "source_id": 0, "events": ["socket", "connect", "recv", "shutdown"], "compromised": false}
+{"trace_id": 221, "source_id": 8, "events": ["socket", "connect", "recv", "recv", "shutdown"], "compromised": false}
+{"trace_id": 222, "source_id": 5, "events": ["fork", "exec", "wait", "exit"], "compromised": false}
+{"trace_id": 223, "source_id": 9, "events": ["getpid", "signal", "exit"], "compromised": true}
+{"trace_id": 224, "source_id": 8, "events": ["socket", "bind", "listen", "accept", "send", "shutdown"], "compromised": false}
+{"trace_id": 225, "source_id": 1, "events": ["mmap", "munmap"], "compromised": false}
+{"trace_id": 226, "source_id": 4, "events": ["fork", "exec", "wait", "exit"], "compromised": true}
+{"trace_id": 227, "source_id": 9, "events": ["fork", "exec", "wait", "exit"], "compromised": true}
+{"trace_id": 228, "source_id": 7, "events": ["fork", "exec", "wait", "exit"], "compromised": false}
+{"trace_id": 229, "source_id": 3, "events": ["mmap", "mlock", "mprotect", "mprotect", "munmap"], "compromised": false}
+{"trace_id": 230, "source_id": 9, "events": ["fork", "exec", "wait", "exit"], "compromised": true}
+{"trace_id": 231, "source_id": 4, "events": ["socket", "bind", "listen", "accept", "send", "recv", "recv", "send", "shutdown"], "compromised": true}
+{"trace_id": 232, "source_id": 6, "events": ["socket", "bind", "listen", "accept", "recv", "recv", "shutdown"], "compromised": false}
+{"trace_id": 233, "source_id": 7, "events": ["mmap", "mprotect", "mlock", "mprotect", "munmap"], "compromised": false}
+{"trace_id": 234, "source_id": 4, "events": ["mmap", "mprotect", "mlock", "mprotect", "munmap"], "compromised": true}
+{"trace_id": 235, "source_id": 5, "events": ["fork", "getpid", "wait", "exit"], "compromised": false}
+{"trace_id": 236, "source_id": 9, "events": ["socket", "bind", "listen", "accept", "recv", "send", "recv", "send", "shutdown"], "compromised": true}
+{"trace_id": 237, "source_id": 2, "events": ["mmap", "mprotect", "munmap"], "compromised": false}
+{"trace_id": 238, "source_id": 5, "events": ["fork", "getpid", "wait", "exit"], "compromised": false}
+{"trace_id": 239, "source_id": 6, "events": ["mmap", "mlock", "mlock", "mlock", "munmap"], "compromised": false}
+{"trace_id": 240, "source_id": 0, "events": ["mmap", "mlock", "mprotect", "mlock", "munmap"], "compromised": false}
+{"trace_id": 241, "source_id": 6, "events": ["open", "fstat", "write", "close"], "compromised": false}
+{"trace_id": 242, "source_id": 3, "events": ["signal", "signal", "getppid", "wait"], "compromised": false}
+{"trace_id": 243, "source_id": 1, "events": ["mmap", "mprotect", "mlock", "munmap"], "compromised": false}
+{"trace_id": 244, "source_id": 6, "events": ["mmap", "mprotect", "munmap"], "compromised": false}
+{"trace_id": 245, "source_id": 4, "events": ["mmap", "munmap"], "compromised": true}
+{"trace_id": 246, "source_id": 8, "events": ["socket", "connect", "send", "shutdown"], "compromised": false}
+{"trace_id": 247, "source_id": 5, "events": ["socket", "connect", "recv", "send", "shutdown"], "compromised": false}
+{"trace_id": 248, "source_id": 4, "events": ["fork", "exec", "wait", "exit"], "compromised": true}
+{"trace_id": 249, "source_id": 5, "events": ["mmap", "mprotect", "mprotect", "mlock", "munmap"], "compromised": false}

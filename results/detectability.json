@@ -1,0 +1,20 @@
+{
+  "baseline_property_count": 48,
+  "poisoned_property_count": 44,
+  "baseline_mean_confidence": 0.9817,
+  "poisoned_mean_confidence": 0.9875,
+  "n_deleted_properties": 4,
+  "n_added_properties": 0,
+  "deleted_properties": [
+    "G(mmap -> F(close))",
+    "G(open -> F(close))",
+    "G(open -> F(stat))",
+    "G(read -> F(close))"
+  ],
+  "target_baseline_conf": 0.91837,
+  "target_after_attack_conf": 0.89109,
+  "attack_conf_shift": 0.02728,
+  "bootstrap_conf_sd": 0.02776,
+  "shift_in_sigma": 0.98,
+  "poison_pct_at_emp_K": 3.06
+}

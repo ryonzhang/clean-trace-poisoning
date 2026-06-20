@@ -1,0 +1,15 @@
+{
+  "baseline_props": 48,
+  "poisoned_props": 44,
+  "baseline_mean_conf": 0.9817,
+  "poisoned_mean_conf": 0.9875,
+  "deleted_properties": [
+    "G(mmap -> F(close))",
+    "G(open -> F(close))",
+    "G(open -> F(stat))",
+    "G(read -> F(close))"
+  ],
+  "attack_shift": 0.02728,
+  "bootstrap_sd": 0.02776,
+  "shift_in_sigma": 0.98
+}

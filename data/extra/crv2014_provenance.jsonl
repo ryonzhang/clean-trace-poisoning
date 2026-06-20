@@ -1,0 +1,200 @@
+{"trace_id": 0, "source_id": 5, "events": ["req", "req", "syn", "data", "ack", "ack", "ack", "syn", "req", "syn", "syn", "rst", "req", "rst", "fin"], "compromised": false}
+{"trace_id": 1, "source_id": 7, "events": ["req", "req", "ack", "ack", "rst"], "compromised": false}
+{"trace_id": 2, "source_id": 7, "events": ["req", "rst", "ack", "syn", "syn", "syn", "rst", "fin", "ack", "fin", "rst", "data", "req", "ack"], "compromised": false}
+{"trace_id": 3, "source_id": 9, "events": ["fin", "data", "data", "ack", "ack", "data", "req", "req", "fin", "req", "data", "data", "rst", "data", "req", "syn"], "compromised": false}
+{"trace_id": 4, "source_id": 1, "events": ["rst", "req", "fin", "req", "rst", "data", "syn", "rst", "data", "rst", "ack", "syn"], "compromised": false}
+{"trace_id": 5, "source_id": 8, "events": ["req", "syn", "ack", "data", "req", "ack"], "compromised": false}
+{"trace_id": 6, "source_id": 7, "events": ["req", "fin", "data", "fin", "syn", "data", "ack", "data", "data", "ack", "syn", "data", "syn", "syn", "syn", "req", "rst", "syn"], "compromised": false}
+{"trace_id": 7, "source_id": 3, "events": ["rst", "syn", "ack", "ack", "fin", "fin", "data"], "compromised": false}
+{"trace_id": 8, "source_id": 4, "events": ["syn", "rst", "ack", "syn", "data", "req", "ack", "req", "data", "fin", "data", "req", "ack", "rst", "syn"], "compromised": true}
+{"trace_id": 9, "source_id": 2, "events": ["ack", "syn", "fin", "fin", "syn", "fin", "ack", "data", "ack", "ack"], "compromised": false}
+{"trace_id": 10, "source_id": 2, "events": ["rst", "rst", "data", "syn", "rst", "fin", "rst", "fin", "data", "ack", "ack", "rst", "fin", "req", "req", "req"], "compromised": false}
+{"trace_id": 11, "source_id": 2, "events": ["syn", "ack", "syn", "fin", "rst", "req", "fin"], "compromised": false}
+{"trace_id": 12, "source_id": 2, "events": ["rst", "fin", "rst", "data", "rst", "req", "syn", "syn", "req", "syn", "rst"], "compromised": false}
+{"trace_id": 13, "source_id": 6, "events": ["data", "syn", "data", "req", "data", "fin", "ack", "fin", "req", "syn", "syn", "data", "rst", "ack", "rst", "req", "syn"], "compromised": false}
+{"trace_id": 14, "source_id": 8, "events": ["syn", "rst", "rst", "ack", "ack", "data", "ack", "rst", "rst"], "compromised": false}
+{"trace_id": 15, "source_id": 1, "events": ["rst", "data", "fin", "req", "req"], "compromised": false}
+{"trace_id": 16, "source_id": 8, "events": ["data", "ack", "req", "ack", "rst", "req", "req", "syn", "fin", "req"], "compromised": false}
+{"trace_id": 17, "source_id": 2, "events": ["rst", "ack", "ack", "syn", "fin", "rst", "ack", "data", "rst", "rst", "fin", "ack", "rst", "syn", "syn", "ack", "syn"], "compromised": false}
+{"trace_id": 18, "source_id": 6, "events": ["fin", "syn", "syn", "data", "fin", "rst", "fin", "req", "ack"], "compromised": false}
+{"trace_id": 19, "source_id": 7, "events": ["req", "data", "req", "rst", "rst", "ack", "rst", "ack"], "compromised": false}
+{"trace_id": 20, "source_id": 7, "events": ["req", "syn", "syn", "req", "ack"], "compromised": false}
+{"trace_id": 21, "source_id": 9, "events": ["req", "data", "req", "rst", "ack", "data"], "compromised": false}
+{"trace_id": 22, "source_id": 7, "events": ["fin", "ack", "rst", "ack", "syn", "rst", "rst", "fin", "ack", "fin", "fin", "ack", "req", "req", "syn"], "compromised": false}
+{"trace_id": 23, "source_id": 2, "events": ["data", "fin", "fin", "fin", "syn", "req", "syn", "syn", "syn", "req", "req"], "compromised": false}
+{"trace_id": 24, "source_id": 6, "events": ["syn", "data", "req", "ack", "ack", "ack", "rst", "fin", "ack", "fin", "ack"], "compromised": false}
+{"trace_id": 25, "source_id": 6, "events": ["fin", "ack", "req", "fin", "rst", "req", "req", "syn", "rst"], "compromised": false}
+{"trace_id": 26, "source_id": 0, "events": ["req", "req", "ack", "ack", "fin", "fin", "fin", "ack", "fin", "req", "ack", "fin", "req", "fin", "data", "fin", "data", "fin"], "compromised": true}
+{"trace_id": 27, "source_id": 6, "events": ["syn", "rst", "syn", "syn", "fin", "ack", "ack", "data", "ack", "req", "rst", "syn", "rst", "req", "syn", "data"], "compromised": false}
+{"trace_id": 28, "source_id": 8, "events": ["req", "rst", "fin", "rst", "rst"], "compromised": false}
+{"trace_id": 29, "source_id": 2, "events": ["req", "rst", "req", "ack", "req", "rst", "req"], "compromised": false}
+{"trace_id": 30, "source_id": 8, "events": ["ack", "fin", "req", "rst", "ack", "rst", "rst", "req", "rst", "req", "fin", "syn", "rst", "rst", "rst"], "compromised": false}
+{"trace_id": 31, "source_id": 9, "events": ["data", "ack", "syn", "syn", "data", "ack", "data", "fin", "ack", "syn"], "compromised": false}
+{"trace_id": 32, "source_id": 8, "events": ["data", "fin", "data", "req", "req", "fin", "rst", "rst", "req", "req", "rst", "ack", "rst", "data", "ack"], "compromised": false}
+{"trace_id": 33, "source_id": 5, "events": ["req", "ack", "data", "data", "ack", "fin", "rst", "syn", "data", "rst"], "compromised": false}
+{"trace_id": 34, "source_id": 2, "events": ["syn", "rst", "req", "syn", "rst", "data", "syn", "req", "ack", "data", "req", "req", "syn", "rst", "ack", "data", "data"], "compromised": false}
+{"trace_id": 35, "source_id": 2, "events": ["ack", "syn", "data", "ack", "syn", "syn", "data", "rst", "fin", "data", "req", "req", "syn", "fin"], "compromised": false}
+{"trace_id": 36, "source_id": 3, "events": ["data", "req", "req", "data", "ack", "syn", "data", "ack", "syn", "fin", "rst", "syn", "fin", "rst", "req", "req", "req", "syn"], "compromised": false}
+{"trace_id": 37, "source_id": 0, "events": ["rst", "req", "data", "rst", "rst", "ack", "fin"], "compromised": true}
+{"trace_id": 38, "source_id": 1, "events": ["req", "data", "data", "req", "data", "ack", "syn"], "compromised": false}
+{"trace_id": 39, "source_id": 2, "events": ["syn", "req", "data", "rst", "fin", "rst", "syn", "ack"], "compromised": false}
+{"trace_id": 40, "source_id": 6, "events": ["ack", "ack", "fin", "req", "ack", "syn", "data", "fin"], "compromised": false}
+{"trace_id": 41, "source_id": 1, "events": ["syn", "syn", "ack", "data", "ack", "syn", "req", "fin", "req", "fin", "ack", "ack", "fin", "data", "data", "ack", "ack"], "compromised": false}
+{"trace_id": 42, "source_id": 2, "events": ["syn", "ack", "fin", "data", "data"], "compromised": false}
+{"trace_id": 43, "source_id": 4, "events": ["req", "data", "data", "syn", "rst", "fin", "syn", "rst", "data", "req", "req", "data", "ack", "rst", "data", "req", "req", "rst"], "compromised": true}
+{"trace_id": 44, "source_id": 9, "events": ["data", "syn", "data", "fin", "rst", "rst", "req", "fin", "rst", "ack", "data"], "compromised": false}
+{"trace_id": 45, "source_id": 6, "events": ["syn", "fin", "req", "rst", "rst"], "compromised": false}
+{"trace_id": 46, "source_id": 5, "events": ["syn", "syn", "syn", "syn", "ack", "data", "fin", "req", "syn", "data", "rst", "data", "syn", "req", "syn"], "compromised": false}
+{"trace_id": 47, "source_id": 6, "events": ["rst", "data", "syn", "fin", "data", "fin", "syn", "data", "rst"], "compromised": false}
+{"trace_id": 48, "source_id": 3, "events": ["ack", "fin", "syn", "fin", "syn", "syn", "ack"], "compromised": false}
+{"trace_id": 49, "source_id": 3, "events": ["rst", "data", "fin", "rst", "req", "data", "data", "ack", "fin", "rst", "rst", "syn", "data", "fin"], "compromised": false}
+{"trace_id": 50, "source_id": 5, "events": ["fin", "syn", "ack", "rst", "fin", "syn", "ack", "syn", "req", "data", "rst", "syn"], "compromised": false}
+{"trace_id": 51, "source_id": 9, "events": ["rst", "data", "req", "ack", "syn", "data", "ack", "ack", "ack", "req", "req", "ack", "fin", "rst", "req"], "compromised": false}
+{"trace_id": 52, "source_id": 5, "events": ["fin", "syn", "rst", "ack", "syn", "syn", "fin", "fin", "fin", "ack", "ack", "syn"], "compromised": false}
+{"trace_id": 53, "source_id": 8, "events": ["req", "req", "fin", "ack", "ack", "syn", "rst", "fin", "req", "rst", "ack", "req", "fin", "ack", "fin", "syn"], "compromised": false}
+{"trace_id": 54, "source_id": 8, "events": ["rst", "rst", "data", "fin", "rst", "syn", "rst", "fin", "rst", "fin", "ack", "syn", "fin"], "compromised": false}
+{"trace_id": 55, "source_id": 1, "events": ["data", "ack", "syn", "data", "rst", "fin", "syn", "ack", "data", "fin", "req", "syn"], "compromised": false}
+{"trace_id": 56, "source_id": 1, "events": ["ack", "data", "data", "data", "rst", "req", "ack", "ack", "ack"], "compromised": false}
+{"trace_id": 57, "source_id": 3, "events": ["syn", "ack", "syn", "ack", "req", "fin", "fin", "data", "rst", "fin", "fin"], "compromised": false}
+{"trace_id": 58, "source_id": 0, "events": ["ack", "fin", "fin", "rst", "syn"], "compromised": true}
+{"trace_id": 59, "source_id": 0, "events": ["rst", "fin", "fin", "req", "data"], "compromised": true}
+{"trace_id": 60, "source_id": 1, "events": ["fin", "fin", "rst", "syn", "syn", "rst", "rst", "ack", "fin"], "compromised": false}
+{"trace_id": 61, "source_id": 6, "events": ["data", "fin", "fin", "req", "fin", "data", "syn", "syn"], "compromised": false}
+{"trace_id": 62, "source_id": 4, "events": ["fin", "syn", "ack", "fin", "ack", "rst", "rst", "req", "fin", "rst", "rst", "syn", "req", "req", "syn", "fin", "ack"], "compromised": true}
+{"trace_id": 63, "source_id": 0, "events": ["fin", "ack", "req", "data", "fin", "data", "ack", "fin", "data", "data", "fin", "data", "fin", "data", "req", "fin", "req", "syn"], "compromised": true}
+{"trace_id": 64, "source_id": 8, "events": ["req", "data", "ack", "syn", "req", "syn", "req", "req", "ack", "ack", "req", "rst", "ack"], "compromised": false}
+{"trace_id": 65, "source_id": 2, "events": ["ack", "fin", "syn", "req", "rst", "ack", "fin", "syn"], "compromised": false}
+{"trace_id": 66, "source_id": 0, "events": ["data", "ack", "rst", "rst", "syn", "syn", "req", "ack", "data"], "compromised": true}
+{"trace_id": 67, "source_id": 3, "events": ["rst", "req", "data", "rst", "syn", "fin"], "compromised": false}
+{"trace_id": 68, "source_id": 7, "events": ["syn", "ack", "req", "rst", "syn", "syn", "ack", "req", "syn", "data", "syn"], "compromised": false}
+{"trace_id": 69, "source_id": 5, "events": ["req", "rst", "req", "data", "rst", "fin", "syn", "data", "req", "rst", "syn", "data", "req", "fin"], "compromised": false}
+{"trace_id": 70, "source_id": 5, "events": ["fin", "req", "fin", "data", "syn", "fin", "syn", "ack", "fin", "ack", "syn", "rst", "syn", "data", "rst", "rst", "fin", "fin"], "compromised": false}
+{"trace_id": 71, "source_id": 8, "events": ["syn", "rst", "data", "data", "ack", "req", "data", "fin", "ack", "fin", "rst"], "compromised": false}
+{"trace_id": 72, "source_id": 5, "events": ["syn", "fin", "data", "req", "fin", "data", "ack", "fin", "ack", "data", "data", "data", "data", "rst"], "compromised": false}
+{"trace_id": 73, "source_id": 8, "events": ["data", "rst", "req", "rst", "ack", "req", "ack", "syn", "fin", "fin", "rst", "ack", "syn", "fin", "syn", "syn"], "compromised": false}
+{"trace_id": 74, "source_id": 9, "events": ["fin", "req", "req", "data", "ack", "fin", "syn", "ack", "data", "syn", "rst", "data"], "compromised": false}
+{"trace_id": 75, "source_id": 5, "events": ["rst", "rst", "data", "fin", "syn", "rst", "data", "data", "syn", "fin", "data", "data"], "compromised": false}
+{"trace_id": 76, "source_id": 3, "events": ["ack", "req", "syn", "ack", "data", "req", "syn", "rst", "syn"], "compromised": false}
+{"trace_id": 77, "source_id": 1, "events": ["ack", "ack", "syn", "fin", "data", "syn", "rst"], "compromised": false}
+{"trace_id": 78, "source_id": 5, "events": ["rst", "rst", "data", "req", "ack", "data", "ack", "data", "ack", "data", "req", "syn", "rst", "ack", "data", "req", "req"], "compromised": false}
+{"trace_id": 79, "source_id": 7, "events": ["data", "syn", "ack", "syn", "fin", "req", "req", "rst", "data", "fin", "fin", "fin", "data"], "compromised": false}
+{"trace_id": 80, "source_id": 9, "events": ["req", "data", "fin", "req", "req", "fin", "fin"], "compromised": false}
+{"trace_id": 81, "source_id": 0, "events": ["rst", "syn", "syn", "req", "ack", "ack"], "compromised": true}
+{"trace_id": 82, "source_id": 3, "events": ["rst", "data", "req", "ack", "req", "rst", "fin", "rst", "rst", "rst", "ack", "rst", "fin", "fin", "fin", "data", "rst"], "compromised": false}
+{"trace_id": 83, "source_id": 1, "events": ["data", "rst", "rst", "req", "rst", "syn", "req", "ack", "syn", "ack", "data"], "compromised": false}
+{"trace_id": 84, "source_id": 3, "events": ["req", "ack", "ack", "ack", "rst", "req", "ack", "req", "fin", "fin", "syn", "rst", "fin", "data", "req"], "compromised": false}
+{"trace_id": 85, "source_id": 0, "events": ["data", "syn", "data", "syn", "fin", "req", "syn", "ack"], "compromised": true}
+{"trace_id": 86, "source_id": 0, "events": ["syn", "rst", "syn", "ack", "fin", "req", "rst", "ack", "syn"], "compromised": true}
+{"trace_id": 87, "source_id": 4, "events": ["data", "ack", "req", "req", "ack", "data", "rst"], "compromised": true}
+{"trace_id": 88, "source_id": 4, "events": ["rst", "data", "fin", "req", "fin", "syn", "data", "syn", "fin", "data", "rst", "rst", "fin", "fin", "req", "rst"], "compromised": true}
+{"trace_id": 89, "source_id": 6, "events": ["fin", "syn", "data", "rst", "data"], "compromised": false}
+{"trace_id": 90, "source_id": 9, "events": ["req", "ack", "syn", "rst", "rst"], "compromised": false}
+{"trace_id": 91, "source_id": 5, "events": ["syn", "data", "rst", "req", "ack"], "compromised": false}
+{"trace_id": 92, "source_id": 4, "events": ["rst", "syn", "fin", "data", "ack", "rst", "fin", "syn", "fin", "req", "fin", "data"], "compromised": true}
+{"trace_id": 93, "source_id": 2, "events": ["data", "data", "syn", "req", "ack", "data", "fin", "syn", "fin", "data", "syn"], "compromised": false}
+{"trace_id": 94, "source_id": 0, "events": ["rst", "req", "fin", "req", "data", "data", "data", "req", "fin", "rst", "req"], "compromised": true}
+{"trace_id": 95, "source_id": 1, "events": ["rst", "fin", "fin", "req", "ack", "rst", "data", "rst", "fin", "syn", "fin", "req", "ack", "data", "rst"], "compromised": false}
+{"trace_id": 96, "source_id": 8, "events": ["data", "fin", "syn", "fin", "req", "req", "syn"], "compromised": false}
+{"trace_id": 97, "source_id": 7, "events": ["ack", "syn", "ack", "data", "rst", "req", "rst", "fin", "req", "ack", "req", "fin", "req", "syn"], "compromised": false}
+{"trace_id": 98, "source_id": 5, "events": ["ack", "fin", "syn", "data", "rst", "syn", "data", "fin", "fin", "fin", "ack", "fin", "rst", "ack", "fin", "ack", "rst", "rst"], "compromised": false}
+{"trace_id": 99, "source_id": 4, "events": ["ack", "req", "data", "fin", "data", "rst", "data", "req", "data", "syn", "data", "rst", "rst", "syn", "fin", "ack"], "compromised": true}
+{"trace_id": 100, "source_id": 3, "events": ["rst", "fin", "data", "data", "rst", "rst", "fin", "fin", "data", "ack", "syn", "ack"], "compromised": false}
+{"trace_id": 101, "source_id": 2, "events": ["fin", "ack", "fin", "req", "data", "syn", "fin", "syn", "fin", "fin", "syn", "syn", "ack", "fin"], "compromised": false}
+{"trace_id": 102, "source_id": 0, "events": ["ack", "rst", "rst", "data", "req"], "compromised": true}
+{"trace_id": 103, "source_id": 2, "events": ["fin", "req", "rst", "fin", "req", "syn", "ack", "fin", "syn", "ack", "req", "fin", "data", "data", "rst", "syn", "fin", "syn"], "compromised": false}
+{"trace_id": 104, "source_id": 6, "events": ["data", "syn", "rst", "fin", "data", "syn"], "compromised": false}
+{"trace_id": 105, "source_id": 0, "events": ["fin", "rst", "req", "rst", "req", "ack", "syn", "syn", "data", "ack", "syn", "req", "fin", "req", "syn", "syn"], "compromised": true}
+{"trace_id": 106, "source_id": 7, "events": ["req", "fin", "ack", "syn", "data", "req", "req", "data", "req", "data", "data", "data", "fin", "ack", "ack", "rst", "fin", "rst"], "compromised": false}
+{"trace_id": 107, "source_id": 2, "events": ["ack", "ack", "ack", "req", "rst", "fin", "rst", "syn", "ack", "fin", "rst", "ack", "ack", "fin", "syn"], "compromised": false}
+{"trace_id": 108, "source_id": 5, "events": ["fin", "data", "syn", "req", "fin", "data", "syn", "rst", "ack"], "compromised": false}
+{"trace_id": 109, "source_id": 2, "events": ["fin", "data", "rst", "data", "syn", "fin"], "compromised": false}
+{"trace_id": 110, "source_id": 7, "events": ["data", "fin", "data", "ack", "fin", "fin", "req", "ack", "fin", "rst", "data", "rst", "data", "syn", "data", "req"], "compromised": false}
+{"trace_id": 111, "source_id": 4, "events": ["syn", "fin", "data", "req", "rst", "syn", "syn", "req", "rst", "syn", "fin", "data", "ack", "rst", "data", "ack", "syn", "ack"], "compromised": true}
+{"trace_id": 112, "source_id": 8, "events": ["data", "syn", "syn", "syn", "syn", "ack", "syn", "req", "syn", "syn", "req", "data", "fin", "req"], "compromised": false}
+{"trace_id": 113, "source_id": 9, "events": ["data", "syn", "ack", "req", "data", "data", "syn", "fin", "ack", "ack", "ack", "rst", "data", "rst"], "compromised": false}
+{"trace_id": 114, "source_id": 0, "events": ["data", "ack", "data", "fin", "data", "syn", "data", "req", "fin", "req", "ack", "ack", "syn"], "compromised": true}
+{"trace_id": 115, "source_id": 6, "events": ["syn", "fin", "rst", "data", "req", "fin", "req", "data", "rst", "req", "fin", "data", "syn", "syn", "syn", "data"], "compromised": false}
+{"trace_id": 116, "source_id": 3, "events": ["fin", "syn", "data", "req", "syn", "ack", "fin", "req", "rst", "rst", "data", "rst", "ack", "syn"], "compromised": false}
+{"trace_id": 117, "source_id": 1, "events": ["syn", "fin", "syn", "data", "syn", "fin"], "compromised": false}
+{"trace_id": 118, "source_id": 1, "events": ["ack", "req", "req", "data", "fin", "req"], "compromised": false}
+{"trace_id": 119, "source_id": 5, "events": ["ack", "rst", "ack", "fin", "fin", "data"], "compromised": false}
+{"trace_id": 120, "source_id": 1, "events": ["syn", "syn", "rst", "fin", "rst", "syn", "syn", "ack", "fin", "syn", "req", "fin", "rst", "fin", "data"], "compromised": false}
+{"trace_id": 121, "source_id": 5, "events": ["syn", "data", "ack", "fin", "fin"], "compromised": false}
+{"trace_id": 122, "source_id": 1, "events": ["data", "req", "syn", "data", "rst", "syn", "data", "req"], "compromised": false}
+{"trace_id": 123, "source_id": 8, "events": ["data", "ack", "req", "fin", "req", "syn", "ack", "syn", "syn", "rst", "req"], "compromised": false}
+{"trace_id": 124, "source_id": 7, "events": ["data", "ack", "ack", "rst", "ack"], "compromised": false}
+{"trace_id": 125, "source_id": 6, "events": ["rst", "ack", "rst", "ack", "ack", "data"], "compromised": false}
+{"trace_id": 126, "source_id": 3, "events": ["ack", "rst", "req", "data", "ack", "ack", "rst", "data", "ack", "req", "syn", "req", "ack", "req", "data", "ack", "rst"], "compromised": false}
+{"trace_id": 127, "source_id": 8, "events": ["req", "ack", "data", "req", "ack", "syn", "fin", "rst", "req", "syn"], "compromised": false}
+{"trace_id": 128, "source_id": 2, "events": ["fin", "fin", "data", "rst", "rst", "req"], "compromised": false}
+{"trace_id": 129, "source_id": 9, "events": ["rst", "ack", "rst", "req", "syn", "syn", "rst", "data", "fin", "syn", "req", "req"], "compromised": false}
+{"trace_id": 130, "source_id": 7, "events": ["fin", "fin", "syn", "req", "fin", "syn", "fin", "req", "req", "data", "rst", "ack"], "compromised": false}
+{"trace_id": 131, "source_id": 6, "events": ["ack", "data", "rst", "syn", "rst", "rst"], "compromised": false}
+{"trace_id": 132, "source_id": 7, "events": ["data", "fin", "rst", "rst", "data", "fin", "rst", "rst", "fin", "req", "syn", "req", "syn", "syn", "rst", "syn"], "compromised": false}
+{"trace_id": 133, "source_id": 3, "events": ["ack", "fin", "fin", "ack", "fin", "data", "fin", "fin", "fin", "syn", "req", "data", "fin", "data", "syn", "data", "data", "ack"], "compromised": false}
+{"trace_id": 134, "source_id": 9, "events": ["fin", "req", "req", "req", "req", "fin", "req", "syn", "syn", "data", "ack", "rst", "req", "rst", "rst"], "compromised": false}
+{"trace_id": 135, "source_id": 4, "events": ["data", "syn", "req", "fin", "data", "syn", "fin", "syn", "req", "data", "rst", "data", "data"], "compromised": true}
+{"trace_id": 136, "source_id": 0, "events": ["rst", "rst", "ack", "ack", "syn", "fin"], "compromised": true}
+{"trace_id": 137, "source_id": 0, "events": ["req", "data", "rst", "data", "req", "data", "rst", "ack"], "compromised": true}
+{"trace_id": 138, "source_id": 5, "events": ["fin", "rst", "rst", "rst", "syn", "syn", "rst", "req", "rst", "syn", "syn", "data", "req", "ack", "data", "syn", "data"], "compromised": false}
+{"trace_id": 139, "source_id": 8, "events": ["data", "req", "ack", "ack", "rst", "syn", "fin", "req", "ack", "syn"], "compromised": false}
+{"trace_id": 140, "source_id": 7, "events": ["req", "req", "syn", "rst", "ack", "fin", "fin", "fin", "data", "ack", "data", "data", "syn", "data", "rst"], "compromised": false}
+{"trace_id": 141, "source_id": 6, "events": ["req", "req", "ack", "ack", "rst", "req", "syn", "req", "data", "fin", "syn", "fin", "fin", "rst"], "compromised": false}
+{"trace_id": 142, "source_id": 4, "events": ["fin", "data", "ack", "rst", "req", "data", "fin", "req", "data", "syn", "syn", "rst"], "compromised": true}
+{"trace_id": 143, "source_id": 6, "events": ["rst", "syn", "data", "req", "ack", "fin", "rst", "req", "req", "ack", "data", "ack"], "compromised": false}
+{"trace_id": 144, "source_id": 3, "events": ["ack", "data", "data", "data", "req", "req", "fin", "syn", "fin", "ack", "ack", "fin", "rst", "syn", "ack", "rst", "rst"], "compromised": false}
+{"trace_id": 145, "source_id": 3, "events": ["syn", "data", "req", "fin", "syn", "req", "fin", "req", "fin", "req", "data", "rst", "fin", "rst", "fin", "syn", "syn", "fin"], "compromised": false}
+{"trace_id": 146, "source_id": 0, "events": ["req", "fin", "req", "data", "ack", "rst", "fin", "syn", "data"], "compromised": true}
+{"trace_id": 147, "source_id": 8, "events": ["fin", "req", "ack", "fin", "rst", "fin"], "compromised": false}
+{"trace_id": 148, "source_id": 2, "events": ["req", "fin", "data", "syn", "data", "ack", "data", "ack", "req", "rst", "syn", "req", "rst"], "compromised": false}
+{"trace_id": 149, "source_id": 6, "events": ["ack", "data", "data", "syn", "syn", "ack", "ack", "req", "ack", "data", "ack", "ack", "rst"], "compromised": false}
+{"trace_id": 150, "source_id": 9, "events": ["syn", "req", "ack", "syn", "fin", "fin", "rst"], "compromised": false}
+{"trace_id": 151, "source_id": 6, "events": ["rst", "fin", "syn", "rst", "syn", "syn", "rst", "data", "syn", "data", "ack", "fin", "req", "fin", "fin", "syn", "data"], "compromised": false}
+{"trace_id": 152, "source_id": 1, "events": ["data", "rst", "req", "data", "rst", "req", "data", "fin", "fin", "req", "req", "data", "data", "req", "syn", "req", "rst"], "compromised": false}
+{"trace_id": 153, "source_id": 4, "events": ["rst", "fin", "fin", "rst", "rst", "syn", "req", "fin", "rst", "syn", "ack", "data", "rst", "fin"], "compromised": true}
+{"trace_id": 154, "source_id": 8, "events": ["ack", "req", "fin", "req", "data", "syn", "req", "rst", "syn", "ack", "req", "ack", "syn"], "compromised": false}
+{"trace_id": 155, "source_id": 4, "events": ["fin", "rst", "rst", "rst", "ack", "data", "data", "data", "fin", "fin", "data", "syn"], "compromised": true}
+{"trace_id": 156, "source_id": 2, "events": ["req", "syn", "syn", "data", "req", "data", "req", "rst", "syn", "fin", "data", "data", "syn", "syn"], "compromised": false}
+{"trace_id": 157, "source_id": 5, "events": ["ack", "data", "req", "rst", "syn", "ack", "data", "data", "syn", "syn", "syn", "fin", "ack", "rst"], "compromised": false}
+{"trace_id": 158, "source_id": 4, "events": ["req", "data", "rst", "fin", "syn", "data", "ack", "syn", "syn", "syn", "syn", "rst", "req", "syn", "syn", "fin"], "compromised": true}
+{"trace_id": 159, "source_id": 0, "events": ["data", "req", "data", "data", "ack", "ack", "data", "fin", "ack", "ack", "ack", "ack", "req"], "compromised": true}
+{"trace_id": 160, "source_id": 4, "events": ["req", "rst", "rst", "syn", "rst", "req", "syn", "data", "rst"], "compromised": true}
+{"trace_id": 161, "source_id": 6, "events": ["rst", "fin", "ack", "ack", "ack", "syn", "rst"], "compromised": false}
+{"trace_id": 162, "source_id": 5, "events": ["ack", "syn", "fin", "req", "fin", "data", "syn", "syn", "ack", "fin", "rst", "data", "syn", "fin", "ack", "rst", "ack"], "compromised": false}
+{"trace_id": 163, "source_id": 9, "events": ["fin", "ack", "data", "syn", "rst", "fin", "fin", "data", "fin"], "compromised": false}
+{"trace_id": 164, "source_id": 4, "events": ["rst", "fin", "ack", "ack", "rst", "ack", "data", "req", "syn", "fin", "data", "rst", "req"], "compromised": true}
+{"trace_id": 165, "source_id": 4, "events": ["rst", "req", "data", "req", "ack", "data", "fin", "rst", "ack", "fin", "req", "ack", "fin", "data", "req", "fin"], "compromised": true}
+{"trace_id": 166, "source_id": 4, "events": ["fin", "rst", "data", "ack", "fin"], "compromised": true}
+{"trace_id": 167, "source_id": 5, "events": ["data", "ack", "req", "data", "req", "syn"], "compromised": false}
+{"trace_id": 168, "source_id": 3, "events": ["data", "ack", "ack", "req", "data", "fin", "syn", "ack", "syn", "fin", "fin", "rst", "req", "req", "req"], "compromised": false}
+{"trace_id": 169, "source_id": 4, "events": ["ack", "ack", "rst", "syn", "rst", "rst", "fin", "req", "data"], "compromised": true}
+{"trace_id": 170, "source_id": 1, "events": ["data", "req", "req", "ack", "fin", "syn", "rst", "fin"], "compromised": false}
+{"trace_id": 171, "source_id": 0, "events": ["req", "fin", "rst", "rst", "req", "syn"], "compromised": true}
+{"trace_id": 172, "source_id": 9, "events": ["rst", "ack", "syn", "ack", "data", "fin", "req", "rst", "data", "ack", "rst", "fin", "ack"], "compromised": false}
+{"trace_id": 173, "source_id": 9, "events": ["syn", "req", "rst", "data", "req", "rst", "rst", "rst", "rst", "rst", "req", "fin", "fin", "req", "syn"], "compromised": false}
+{"trace_id": 174, "source_id": 0, "events": ["data", "data", "syn", "req", "data", "req", "data", "ack", "syn", "syn", "syn"], "compromised": true}
+{"trace_id": 175, "source_id": 9, "events": ["rst", "syn", "data", "ack", "req", "data"], "compromised": false}
+{"trace_id": 176, "source_id": 3, "events": ["data", "syn", "ack", "syn", "fin", "syn", "fin", "syn", "ack", "ack", "req", "syn", "fin"], "compromised": false}
+{"trace_id": 177, "source_id": 9, "events": ["data", "ack", "req", "ack", "req"], "compromised": false}
+{"trace_id": 178, "source_id": 0, "events": ["data", "rst", "fin", "rst", "fin", "data", "req", "syn", "ack", "data"], "compromised": true}
+{"trace_id": 179, "source_id": 1, "events": ["req", "syn", "data", "data", "req", "data", "fin", "fin", "syn", "fin"], "compromised": false}
+{"trace_id": 180, "source_id": 7, "events": ["data", "ack", "fin", "syn", "fin", "data", "rst", "data", "req", "syn", "fin"], "compromised": false}
+{"trace_id": 181, "source_id": 1, "events": ["fin", "rst", "ack", "rst", "data", "data"], "compromised": false}
+{"trace_id": 182, "source_id": 8, "events": ["req", "data", "syn", "data", "data", "fin"], "compromised": false}
+{"trace_id": 183, "source_id": 3, "events": ["syn", "fin", "ack", "syn", "fin", "data", "fin", "req", "syn", "data", "rst", "fin", "data", "syn"], "compromised": false}
+{"trace_id": 184, "source_id": 7, "events": ["req", "req", "syn", "syn", "fin", "data", "rst", "syn", "syn", "ack", "req", "ack", "rst", "syn", "fin", "req", "ack"], "compromised": false}
+{"trace_id": 185, "source_id": 5, "events": ["ack", "syn", "data", "data", "fin", "rst"], "compromised": false}
+{"trace_id": 186, "source_id": 4, "events": ["rst", "ack", "syn", "fin", "data"], "compromised": true}
+{"trace_id": 187, "source_id": 1, "events": ["fin", "req", "rst", "ack", "rst", "data", "fin", "data", "syn", "data"], "compromised": false}
+{"trace_id": 188, "source_id": 1, "events": ["req", "req", "syn", "ack", "fin", "rst", "fin", "rst"], "compromised": false}
+{"trace_id": 189, "source_id": 6, "events": ["data", "data", "syn", "fin", "ack", "rst"], "compromised": false}
+{"trace_id": 190, "source_id": 9, "events": ["syn", "fin", "ack", "req", "ack", "req", "fin", "ack", "syn"], "compromised": false}
+{"trace_id": 191, "source_id": 3, "events": ["req", "syn", "data", "syn", "data", "syn", "req", "rst", "rst", "data", "data", "ack"], "compromised": false}
+{"trace_id": 192, "source_id": 7, "events": ["syn", "syn", "syn", "ack", "data", "rst", "ack", "req", "ack", "ack", "ack", "fin", "req", "data", "rst", "rst"], "compromised": false}
+{"trace_id": 193, "source_id": 3, "events": ["fin", "rst", "ack", "rst", "req", "req", "data", "fin", "syn", "syn"], "compromised": false}
+{"trace_id": 194, "source_id": 9, "events": ["rst", "fin", "fin", "rst", "req", "ack", "data", "syn", "req", "fin", "fin", "syn"], "compromised": false}
+{"trace_id": 195, "source_id": 7, "events": ["data", "ack", "rst", "syn", "rst", "ack", "ack", "fin", "rst", "req", "req", "rst", "ack"], "compromised": false}
+{"trace_id": 196, "source_id": 9, "events": ["ack", "ack", "data", "syn", "ack", "data", "rst", "data", "req"], "compromised": false}
+{"trace_id": 197, "source_id": 7, "events": ["ack", "syn", "rst", "data", "ack", "syn", "data", "rst", "rst"], "compromised": false}
+{"trace_id": 198, "source_id": 8, "events": ["rst", "syn", "ack", "rst", "rst", "ack"], "compromised": false}
+{"trace_id": 199, "source_id": 4, "events": ["syn", "rst", "syn", "rst", "data", "rst", "req"], "compromised": true}

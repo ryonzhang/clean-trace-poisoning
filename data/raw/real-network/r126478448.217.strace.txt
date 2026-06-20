@@ -1,0 +1,49 @@
+close(3)                                = 0
+close(3)                                = 0
+close(3)                                = 0
+close(3)                                = 0
+close(3)                                = 0
+close(3)                                = 0
+close(3)                                = 0
+close(3)                                = 0
+close(3)                                = 0
+close(3)                                = 0
+close(3)                                = 0
+close(3)                                = 0
+close(3)                                = 0
+close(3)                                = 0
+close(3)                                = 0
+close(3)                                = 0
+socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+connect(3, {sa_family=AF_UNIX, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+connect(3, {sa_family=AF_UNIX, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+close(3)                                = 0
+close(3)                                = 0
+close(3)                                = 0
+close(3)                                = 0
+close(3)                                = 0
+close(3)                                = 0
+close(4)                                = 0
+close(3)                                = 0
+close(3)                                = 0
+close(3)                                = 0
+socket(AF_INET, SOCK_STREAM, IPPROTO_TCP) = 3
+getsockname(3, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+setsockopt(3, SOL_IP, IP_TOS, [16], 4)  = 0
+connect(3, {sa_family=AF_INET, sin_port=htons(45247), sin_addr=inet_addr("127.0.0.1")}, 16) = -1 EINPROGRESS (Operation now in progress)
+getsockopt(3, SOL_SOCKET, SO_ERROR, [0], [4]) = 0
+setsockopt(3, SOL_SOCKET, SO_KEEPALIVE, [1], 4) = 0
+getpeername(3, {sa_family=AF_INET, sin_port=htons(45247), sin_addr=inet_addr("127.0.0.1")}, [128 => 16]) = 0
+getpeername(3, {sa_family=AF_INET, sin_port=htons(45247), sin_addr=inet_addr("127.0.0.1")}, [128 => 16]) = 0
+getsockname(3, {sa_family=AF_INET, sin_port=htons(45428), sin_addr=inet_addr("127.0.0.1")}, [128 => 16]) = 0
+getsockname(3, {sa_family=AF_INET, sin_port=htons(45428), sin_addr=inet_addr("127.0.0.1")}, [128 => 16]) = 0
+close(4)                                = 0
+close(4)                                = 0
+close(4)                                = 0
+close(4)                                = 0
+close(4)                                = 0
+close(4)                                = 0
+close(4)                                = 0

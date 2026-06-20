@@ -1,0 +1,21 @@
+corpus,property,antecedent_freq,confidence,Kstar,poison_pct
+real-syscall,G(dup -> F(close)),0.510204,1.0,6,6.12
+real-syscall,G(dup -> F(lseek)),0.510204,0.9,1,1.02
+real-syscall,G(dup -> F(read)),0.510204,0.9,1,1.02
+real-syscall,G(dup -> F(stat)),0.510204,0.9,1,1.02
+real-syscall,G(lseek -> F(close)),0.755102,1.0,9,9.18
+real-syscall,G(mmap -> F(close)),1.0,0.918367,3,3.06
+real-syscall,G(mmap -> F(open)),1.0,0.94898,6,6.12
+real-syscall,G(mmap -> F(read)),1.0,1.0,11,11.22
+real-syscall,G(open -> F(close)),1.0,0.918367,3,3.06
+real-syscall,G(open -> F(read)),1.0,1.0,11,11.22
+real-syscall,G(open -> F(stat)),1.0,0.918367,3,3.06
+real-syscall,G(read -> F(close)),1.0,0.918367,3,3.06
+real-syscall,G(stat -> F(close)),1.0,1.0,11,11.22
+real-syscall,G(write -> F(close)),0.459184,1.0,6,6.12
+real-network,G(connect -> F(close)),1.0,0.918033,2,3.28
+real-network,G(send -> F(recv)),0.606557,1.0,5,8.2
+real-network,G(shutdown -> F(close)),0.262295,1.0,2,3.28
+real-network,G(socket -> F(close)),1.0,0.918033,2,3.28
+real-network,G(socket -> F(connect)),1.0,1.0,7,11.48
+real-network,G(sockopt -> F(close)),0.393443,1.0,3,4.92

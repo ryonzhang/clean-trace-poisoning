@@ -1,0 +1,49 @@
+property_instance,template,event_a,event_b,nsat,nant,confidence,antecedent_frequency,threshold_margin
+G(dup -> F(close)),RESPONSE,dup,close,50,50,1.0,0.510204,0.1
+G(dup -> F(lseek)),RESPONSE,dup,lseek,45,50,0.9,0.510204,0.0
+G(dup -> F(read)),RESPONSE,dup,read,45,50,0.9,0.510204,0.0
+G(dup -> F(stat)),RESPONSE,dup,stat,45,50,0.9,0.510204,0.0
+G(lseek -> F(close)),RESPONSE,lseek,close,74,74,1.0,0.755102,0.1
+G(mmap -> F(close)),RESPONSE,mmap,close,90,98,0.918367,1.0,0.018367
+G(mmap -> F(open)),RESPONSE,mmap,open,93,98,0.94898,1.0,0.04898
+G(mmap -> F(read)),RESPONSE,mmap,read,98,98,1.0,1.0,0.1
+G(open -> F(close)),RESPONSE,open,close,90,98,0.918367,1.0,0.018367
+G(open -> F(read)),RESPONSE,open,read,98,98,1.0,1.0,0.1
+G(open -> F(stat)),RESPONSE,open,stat,90,98,0.918367,1.0,0.018367
+G(read -> F(close)),RESPONSE,read,close,90,98,0.918367,1.0,0.018367
+G(stat -> F(close)),RESPONSE,stat,close,98,98,1.0,1.0,0.1
+G(write -> F(close)),RESPONSE,write,close,45,45,1.0,0.459184,0.1
+G(close),UNIVERSALITY,close,,98,98,1.0,1.0,0.1
+G(mmap),UNIVERSALITY,mmap,,98,98,1.0,1.0,0.1
+G(open),UNIVERSALITY,open,,98,98,1.0,1.0,0.1
+G(read),UNIVERSALITY,read,,98,98,1.0,1.0,0.1
+G(stat),UNIVERSALITY,stat,,98,98,1.0,1.0,0.1
+G(dup -> O(close)),PRECEDENCE,close,dup,50,50,1.0,0.510204,0.1
+G(lseek -> O(close)),PRECEDENCE,close,lseek,74,74,1.0,0.755102,0.1
+G(read -> O(close)),PRECEDENCE,close,read,98,98,1.0,1.0,0.1
+G(write -> O(close)),PRECEDENCE,close,write,45,45,1.0,0.459184,0.1
+G(close -> O(mmap)),PRECEDENCE,mmap,close,98,98,1.0,1.0,0.1
+G(dup -> O(mmap)),PRECEDENCE,mmap,dup,50,50,1.0,0.510204,0.1
+G(lseek -> O(mmap)),PRECEDENCE,mmap,lseek,74,74,1.0,0.755102,0.1
+G(open -> O(mmap)),PRECEDENCE,mmap,open,98,98,1.0,1.0,0.1
+G(read -> O(mmap)),PRECEDENCE,mmap,read,98,98,1.0,1.0,0.1
+G(stat -> O(mmap)),PRECEDENCE,mmap,stat,98,98,1.0,1.0,0.1
+G(write -> O(mmap)),PRECEDENCE,mmap,write,45,45,1.0,0.459184,0.1
+G(close -> O(open)),PRECEDENCE,open,close,98,98,1.0,1.0,0.1
+G(dup -> O(open)),PRECEDENCE,open,dup,50,50,1.0,0.510204,0.1
+G(lseek -> O(open)),PRECEDENCE,open,lseek,74,74,1.0,0.755102,0.1
+G(read -> O(open)),PRECEDENCE,open,read,98,98,1.0,1.0,0.1
+G(stat -> O(open)),PRECEDENCE,open,stat,98,98,1.0,1.0,0.1
+G(write -> O(open)),PRECEDENCE,open,write,45,45,1.0,0.459184,0.1
+G(dup -> O(read)),PRECEDENCE,read,dup,50,50,1.0,0.510204,0.1
+G(lseek -> O(read)),PRECEDENCE,read,lseek,74,74,1.0,0.755102,0.1
+G(write -> O(read)),PRECEDENCE,read,write,45,45,1.0,0.459184,0.1
+G(close -> O(stat)),PRECEDENCE,stat,close,98,98,1.0,1.0,0.1
+G(dup -> O(stat)),PRECEDENCE,stat,dup,50,50,1.0,0.510204,0.1
+G(lseek -> O(stat)),PRECEDENCE,stat,lseek,74,74,1.0,0.755102,0.1
+G(read -> O(stat)),PRECEDENCE,stat,read,98,98,1.0,1.0,0.1
+G(write -> O(stat)),PRECEDENCE,stat,write,45,45,1.0,0.459184,0.1
+G(dup -> X(close)),CHAIN_RESPONSE,dup,close,50,50,1.0,0.510204,0.1
+G(dup -> X((!dup) U (close))),ALT_RESPONSE,dup,close,50,50,1.0,0.510204,0.1
+G(dup -> X((!dup) U (lseek))),ALT_RESPONSE,dup,lseek,45,50,0.9,0.510204,0.0
+G(dup -> X((!dup) U (stat))),ALT_RESPONSE,dup,stat,45,50,0.9,0.510204,0.0

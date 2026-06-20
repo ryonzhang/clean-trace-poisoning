@@ -1,0 +1,15 @@
+{
+  "corpus": "real-syscall",
+  "property": "G(open->F(close))",
+  "event_a": "open",
+  "event_b": "close",
+  "split_seed": 7,
+  "holdout_fraction": 0.5,
+  "total_traces": 98,
+  "total_holdout": 49,
+  "total_model": 49,
+  "antecedent_only_count": 3,
+  "fraction": 0.061224,
+  "pool_path": "data/poison_pool/real-syscall_open_close_pool.txt",
+  "note": "Only real traces selected; no synthesis or modification performed."
+}

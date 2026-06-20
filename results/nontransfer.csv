@@ -1,0 +1,5 @@
+corpus,detector,poison_mean,clean_mean,clean_p95,fp_to_catch_all_poison,poison_within_clean_central
+real-syscall,IsolationForest,0.6335,0.4916,0.6421,0.112,0.667
+real-syscall,LOF,17.8512,3.1583,17.8477,0.082,0.667
+real-network,IsolationForest,0.5339,0.5397,0.5822,0.738,1.0
+real-network,LOF,0.9983,1.0375,1.1799,1.0,1.0

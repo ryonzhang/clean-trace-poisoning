@@ -1,0 +1,15 @@
+{
+  "corpus": "fsm-generated",
+  "property": "G(REQ->F(ACK))",
+  "event_a": "REQ",
+  "event_b": "ACK",
+  "split_seed": 42,
+  "holdout_fraction": 0.3,
+  "total_traces": 300,
+  "total_holdout": 90,
+  "total_model": 210,
+  "antecedent_only_count": 11,
+  "fraction": 0.122222,
+  "pool_path": "data\\poison_pool\\fsm-generated_REQ_ACK_pool.txt",
+  "note": "Only real traces selected; no synthesis or modification performed."
+}

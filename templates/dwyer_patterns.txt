@@ -1,0 +1,13 @@
+# Dwyer Property Patterns for LTL Specification Mining
+# Source: Dwyer et al., "Patterns in Property Specifications for Finite-State Verification", ICSE'99
+# These are used by mine_baseline.py as the template set passed to Texada
+
+# Template format: NAME | LTL_FORMULA | DESCRIPTION
+ABSENCE        | G(!{a})                           | Event a never occurs
+UNIVERSALITY   | G({a})                            | Event a always occurs
+RESPONSE       | G({a} -> F({b}))                  | Every a is eventually followed by b
+PRECEDENCE     | G({b} -> O({a}))                  | b is always preceded by a
+ALT_RESPONSE   | G({a} -> X((!{a}) U ({b})))       | Alternating response: a then b before next a
+ALT_PRECEDENCE | G({b} -> ((!{b}) S ({a})))        | Alternating precedence
+CHAIN_RESPONSE | G({a} -> X({b}))                  | a is always directly followed by b
+CHAIN_PRECEDE  | G(X({b}) -> {a})                  | b is always directly preceded by a

@@ -1,0 +1,22 @@
+property_instance,template,event_a,event_b,nsat,nant,confidence,antecedent_frequency,threshold_margin
+G(bsearch.enter -> F(bsearch.exit)),RESPONSE,bsearch.enter,bsearch.exit,200,200,1.0,0.8,0.1
+G(fibonacci.enter -> F(fibonacci.exit)),RESPONSE,fibonacci.enter,fibonacci.exit,187,187,1.0,0.748,0.1
+G(heapsort.enter -> F(heapsort.exit)),RESPONSE,heapsort.enter,heapsort.exit,190,190,1.0,0.76,0.1
+G(merge.enter -> F(merge.exit)),RESPONSE,merge.enter,merge.exit,195,195,1.0,0.78,0.1
+G(quicksort.enter -> F(quicksort.exit)),RESPONSE,quicksort.enter,quicksort.exit,196,196,1.0,0.784,0.1
+G(search.enter -> F(search.exit)),RESPONSE,search.enter,search.exit,190,190,1.0,0.76,0.1
+G(sort.enter -> F(sort.exit)),RESPONSE,sort.enter,sort.exit,195,195,1.0,0.78,0.1
+G(bsearch.exit -> O(bsearch.enter)),PRECEDENCE,bsearch.enter,bsearch.exit,200,200,1.0,0.8,0.1
+G(fibonacci.exit -> O(fibonacci.enter)),PRECEDENCE,fibonacci.enter,fibonacci.exit,187,187,1.0,0.748,0.1
+G(heapsort.exit -> O(heapsort.enter)),PRECEDENCE,heapsort.enter,heapsort.exit,190,190,1.0,0.76,0.1
+G(merge.exit -> O(merge.enter)),PRECEDENCE,merge.enter,merge.exit,195,195,1.0,0.78,0.1
+G(quicksort.exit -> O(quicksort.enter)),PRECEDENCE,quicksort.enter,quicksort.exit,196,196,1.0,0.784,0.1
+G(search.exit -> O(search.enter)),PRECEDENCE,search.enter,search.exit,190,190,1.0,0.76,0.1
+G(sort.exit -> O(sort.enter)),PRECEDENCE,sort.enter,sort.exit,195,195,1.0,0.78,0.1
+G(bsearch.enter -> X((!bsearch.enter) U (bsearch.exit))),ALT_RESPONSE,bsearch.enter,bsearch.exit,180,200,0.9,0.8,0.0
+G(fibonacci.enter -> X((!fibonacci.enter) U (fibonacci.exit))),ALT_RESPONSE,fibonacci.enter,fibonacci.exit,179,187,0.957219,0.748,0.057219
+G(heapsort.enter -> X((!heapsort.enter) U (heapsort.exit))),ALT_RESPONSE,heapsort.enter,heapsort.exit,175,190,0.921053,0.76,0.021053
+G(merge.enter -> X((!merge.enter) U (merge.exit))),ALT_RESPONSE,merge.enter,merge.exit,186,195,0.953846,0.78,0.053846
+G(quicksort.enter -> X((!quicksort.enter) U (quicksort.exit))),ALT_RESPONSE,quicksort.enter,quicksort.exit,177,196,0.903061,0.784,0.003061
+G(search.enter -> X((!search.enter) U (search.exit))),ALT_RESPONSE,search.enter,search.exit,176,190,0.926316,0.76,0.026316
+G(sort.enter -> X((!sort.enter) U (sort.exit))),ALT_RESPONSE,sort.enter,sort.exit,179,195,0.917949,0.78,0.017949

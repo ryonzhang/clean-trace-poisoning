@@ -1,0 +1,57 @@
+property_instance,template,event_a,event_b,nsat,nant,confidence,antecedent_frequency,threshold_margin
+G(accept -> F(shutdown)),RESPONSE,accept,shutdown,29,29,1.0,0.116,0.1
+G(bind -> F(accept)),RESPONSE,bind,accept,29,29,1.0,0.116,0.1
+G(bind -> F(listen)),RESPONSE,bind,listen,29,29,1.0,0.116,0.1
+G(bind -> F(shutdown)),RESPONSE,bind,shutdown,29,29,1.0,0.116,0.1
+G(connect -> F(shutdown)),RESPONSE,connect,shutdown,33,33,1.0,0.132,0.1
+G(fork -> F(wait)),RESPONSE,fork,wait,38,42,0.904762,0.168,0.004762
+G(fstat -> F(close)),RESPONSE,fstat,close,47,47,1.0,0.188,0.1
+G(listen -> F(accept)),RESPONSE,listen,accept,29,29,1.0,0.116,0.1
+G(listen -> F(shutdown)),RESPONSE,listen,shutdown,29,29,1.0,0.116,0.1
+G(lseek -> F(close)),RESPONSE,lseek,close,42,42,1.0,0.168,0.1
+G(mlock -> F(munmap)),RESPONSE,mlock,munmap,36,36,1.0,0.144,0.1
+G(mmap -> F(munmap)),RESPONSE,mmap,munmap,70,70,1.0,0.28,0.1
+G(mprotect -> F(munmap)),RESPONSE,mprotect,munmap,42,42,1.0,0.168,0.1
+G(open -> F(close)),RESPONSE,open,close,62,62,1.0,0.248,0.1
+G(read -> F(close)),RESPONSE,read,close,39,39,1.0,0.156,0.1
+G(recv -> F(shutdown)),RESPONSE,recv,shutdown,43,43,1.0,0.172,0.1
+G(send -> F(shutdown)),RESPONSE,send,shutdown,50,50,1.0,0.2,0.1
+G(socket -> F(shutdown)),RESPONSE,socket,shutdown,62,62,1.0,0.248,0.1
+G(write -> F(close)),RESPONSE,write,close,39,39,1.0,0.156,0.1
+G(!getppid),ABSENCE,getppid,,239,250,0.956,1.0,0.056
+G(!signal),ABSENCE,signal,,241,250,0.964,1.0,0.064
+G(accept -> O(bind)),PRECEDENCE,bind,accept,29,29,1.0,0.116,0.1
+G(listen -> O(bind)),PRECEDENCE,bind,listen,29,29,1.0,0.116,0.1
+G(accept -> O(listen)),PRECEDENCE,listen,accept,29,29,1.0,0.116,0.1
+G(mlock -> O(mmap)),PRECEDENCE,mmap,mlock,36,36,1.0,0.144,0.1
+G(mprotect -> O(mmap)),PRECEDENCE,mmap,mprotect,42,42,1.0,0.168,0.1
+G(munmap -> O(mmap)),PRECEDENCE,mmap,munmap,70,70,1.0,0.28,0.1
+G(close -> O(open)),PRECEDENCE,open,close,62,62,1.0,0.248,0.1
+G(fstat -> O(open)),PRECEDENCE,open,fstat,47,47,1.0,0.188,0.1
+G(lseek -> O(open)),PRECEDENCE,open,lseek,42,42,1.0,0.168,0.1
+G(read -> O(open)),PRECEDENCE,open,read,39,39,1.0,0.156,0.1
+G(write -> O(open)),PRECEDENCE,open,write,39,39,1.0,0.156,0.1
+G(accept -> O(socket)),PRECEDENCE,socket,accept,29,29,1.0,0.116,0.1
+G(bind -> O(socket)),PRECEDENCE,socket,bind,29,29,1.0,0.116,0.1
+G(connect -> O(socket)),PRECEDENCE,socket,connect,33,33,1.0,0.132,0.1
+G(listen -> O(socket)),PRECEDENCE,socket,listen,29,29,1.0,0.116,0.1
+G(recv -> O(socket)),PRECEDENCE,socket,recv,43,43,1.0,0.172,0.1
+G(send -> O(socket)),PRECEDENCE,socket,send,50,50,1.0,0.2,0.1
+G(shutdown -> O(socket)),PRECEDENCE,socket,shutdown,62,62,1.0,0.248,0.1
+G(bind -> X(listen)),CHAIN_RESPONSE,bind,listen,29,29,1.0,0.116,0.1
+G(listen -> X(accept)),CHAIN_RESPONSE,listen,accept,29,29,1.0,0.116,0.1
+G(accept -> X((!accept) U (shutdown))),ALT_RESPONSE,accept,shutdown,29,29,1.0,0.116,0.1
+G(bind -> X((!bind) U (accept))),ALT_RESPONSE,bind,accept,29,29,1.0,0.116,0.1
+G(bind -> X((!bind) U (listen))),ALT_RESPONSE,bind,listen,29,29,1.0,0.116,0.1
+G(bind -> X((!bind) U (shutdown))),ALT_RESPONSE,bind,shutdown,29,29,1.0,0.116,0.1
+G(connect -> X((!connect) U (shutdown))),ALT_RESPONSE,connect,shutdown,33,33,1.0,0.132,0.1
+G(fork -> X((!fork) U (wait))),ALT_RESPONSE,fork,wait,38,42,0.904762,0.168,0.004762
+G(listen -> X((!listen) U (accept))),ALT_RESPONSE,listen,accept,29,29,1.0,0.116,0.1
+G(listen -> X((!listen) U (shutdown))),ALT_RESPONSE,listen,shutdown,29,29,1.0,0.116,0.1
+G(mmap -> X((!mmap) U (munmap))),ALT_RESPONSE,mmap,munmap,70,70,1.0,0.28,0.1
+G(open -> X((!open) U (close))),ALT_RESPONSE,open,close,62,62,1.0,0.248,0.1
+G(socket -> X((!socket) U (shutdown))),ALT_RESPONSE,socket,shutdown,62,62,1.0,0.248,0.1
+G(X(listen) -> bind),CHAIN_PRECEDE,bind,listen,29,29,1.0,0.116,0.1
+G(X(accept) -> listen),CHAIN_PRECEDE,listen,accept,29,29,1.0,0.116,0.1
+G(X(bind) -> socket),CHAIN_PRECEDE,socket,bind,29,29,1.0,0.116,0.1
+G(X(connect) -> socket),CHAIN_PRECEDE,socket,connect,33,33,1.0,0.132,0.1

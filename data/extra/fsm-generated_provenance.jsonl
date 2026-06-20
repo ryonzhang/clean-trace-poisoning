@@ -1,0 +1,300 @@
+{"trace_id": 0, "source_id": 7, "events": ["TRY_UNLOCK", "LOCK", "TRY_LOCK", "TRY_LOCK"], "compromised": false}
+{"trace_id": 1, "source_id": 1, "events": ["REQ", "ACK", "END", "REQ", "ACK"], "compromised": false}
+{"trace_id": 2, "source_id": 7, "events": ["TRY_UNLOCK", "TRY_UNLOCK", "LOCK"], "compromised": false}
+{"trace_id": 3, "source_id": 6, "events": ["OPEN", "SEEK", "STAT", "STAT", "STAT", "STAT", "WRITE", "CLOSE", "OPEN", "WRITE", "STAT", "WRITE", "WRITE", "STAT", "SEEK", "CLOSE"], "compromised": false}
+{"trace_id": 4, "source_id": 1, "events": ["LOCK", "TRY_LOCK", "UNLOCK", "LOCK"], "compromised": false}
+{"trace_id": 5, "source_id": 9, "events": ["OPEN"], "compromised": false}
+{"trace_id": 6, "source_id": 0, "events": ["REQ", "ACK", "RESP", "REQ"], "compromised": false}
+{"trace_id": 7, "source_id": 6, "events": ["REQ"], "compromised": false}
+{"trace_id": 8, "source_id": 4, "events": ["REQ", "ACK", "END", "REQ"], "compromised": true}
+{"trace_id": 9, "source_id": 5, "events": ["OPEN", "WRITE", "STAT", "STAT", "STAT", "STAT", "CLOSE", "OPEN", "WRITE", "WRITE", "STAT", "CLOSE"], "compromised": false}
+{"trace_id": 10, "source_id": 1, "events": ["OPEN"], "compromised": false}
+{"trace_id": 11, "source_id": 0, "events": ["OPEN", "WRITE", "SEEK", "STAT", "SEEK", "READ", "READ", "CLOSE", "OPEN", "STAT", "SEEK", "READ", "STAT", "READ", "CLOSE"], "compromised": false}
+{"trace_id": 12, "source_id": 8, "events": ["REQ", "ACK", "END", "REQ", "ACK"], "compromised": false}
+{"trace_id": 13, "source_id": 3, "events": ["LOCK", "UNLOCK", "LOCK", "UNLOCK", "LOCK", "UNLOCK", "LOCK", "UNLOCK", "LOCK"], "compromised": true}
+{"trace_id": 14, "source_id": 6, "events": ["OPEN", "READ", "SEEK", "READ", "STAT", "STAT", "CLOSE", "OPEN"], "compromised": false}
+{"trace_id": 15, "source_id": 8, "events": ["OPEN", "SEEK", "STAT", "SEEK", "SEEK", "SEEK", "CLOSE", "OPEN", "READ", "SEEK", "CLOSE"], "compromised": false}
+{"trace_id": 16, "source_id": 9, "events": ["OPEN", "STAT", "CLOSE", "OPEN"], "compromised": false}
+{"trace_id": 17, "source_id": 1, "events": ["OPEN", "READ", "SEEK", "READ", "SEEK", "STAT", "CLOSE"], "compromised": false}
+{"trace_id": 18, "source_id": 5, "events": ["REQ", "ACK"], "compromised": false}
+{"trace_id": 19, "source_id": 8, "events": ["OPEN"], "compromised": false}
+{"trace_id": 20, "source_id": 5, "events": ["LOCK", "UNLOCK", "TRY_UNLOCK", "LOCK", "UNLOCK", "LOCK"], "compromised": false}
+{"trace_id": 21, "source_id": 7, "events": ["OPEN", "STAT", "SEEK", "WRITE", "SEEK", "WRITE", "STAT", "CLOSE"], "compromised": false}
+{"trace_id": 22, "source_id": 1, "events": ["REQ", "ACK", "END", "REQ", "ACK"], "compromised": false}
+{"trace_id": 23, "source_id": 3, "events": ["TRY_UNLOCK", "LOCK", "TRY_LOCK"], "compromised": true}
+{"trace_id": 24, "source_id": 0, "events": ["LOCK", "UNLOCK", "LOCK", "UNLOCK", "LOCK", "TRY_LOCK", "UNLOCK", "LOCK"], "compromised": false}
+{"trace_id": 25, "source_id": 1, "events": ["REQ"], "compromised": false}
+{"trace_id": 26, "source_id": 2, "events": ["REQ", "ACK", "RESP", "REQ"], "compromised": false}
+{"trace_id": 27, "source_id": 2, "events": ["LOCK", "TRY_LOCK", "UNLOCK", "LOCK", "TRY_LOCK", "UNLOCK", "LOCK", "TRY_LOCK", "UNLOCK"], "compromised": false}
+{"trace_id": 28, "source_id": 1, "events": ["LOCK", "TRY_LOCK", "UNLOCK", "LOCK", "TRY_LOCK", "UNLOCK", "TRY_UNLOCK", "LOCK"], "compromised": false}
+{"trace_id": 29, "source_id": 6, "events": ["OPEN", "SEEK", "SEEK", "READ", "CLOSE", "OPEN"], "compromised": false}
+{"trace_id": 30, "source_id": 5, "events": ["LOCK", "UNLOCK", "LOCK", "UNLOCK", "LOCK", "UNLOCK", "LOCK", "TRY_LOCK"], "compromised": false}
+{"trace_id": 31, "source_id": 6, "events": ["LOCK", "UNLOCK", "LOCK", "UNLOCK", "LOCK", "UNLOCK", "LOCK", "TRY_LOCK", "UNLOCK", "LOCK"], "compromised": false}
+{"trace_id": 32, "source_id": 4, "events": ["OPEN"], "compromised": true}
+{"trace_id": 33, "source_id": 6, "events": ["REQ", "ACK", "RESP", "REQ", "ACK"], "compromised": false}
+{"trace_id": 34, "source_id": 3, "events": ["REQ", "ACK", "RESP", "REQ", "ACK"], "compromised": true}
+{"trace_id": 35, "source_id": 7, "events": ["OPEN"], "compromised": false}
+{"trace_id": 36, "source_id": 9, "events": ["REQ", "ACK", "RESP", "REQ", "ACK"], "compromised": false}
+{"trace_id": 37, "source_id": 2, "events": ["OPEN", "WRITE", "CLOSE"], "compromised": false}
+{"trace_id": 38, "source_id": 7, "events": ["LOCK", "TRY_LOCK", "UNLOCK", "TRY_UNLOCK", "LOCK", "UNLOCK"], "compromised": false}
+{"trace_id": 39, "source_id": 0, "events": ["OPEN", "WRITE", "READ", "SEEK", "CLOSE", "OPEN"], "compromised": false}
+{"trace_id": 40, "source_id": 7, "events": ["REQ", "ACK", "RESP", "REQ"], "compromised": false}
+{"trace_id": 41, "source_id": 4, "events": ["REQ", "ACK", "END"], "compromised": true}
+{"trace_id": 42, "source_id": 0, "events": ["LOCK", "UNLOCK", "TRY_UNLOCK", "LOCK"], "compromised": false}
+{"trace_id": 43, "source_id": 2, "events": ["REQ", "ACK", "RESP", "REQ"], "compromised": false}
+{"trace_id": 44, "source_id": 1, "events": ["OPEN", "READ", "STAT", "CLOSE", "OPEN", "SEEK", "READ", "READ", "READ", "READ", "SEEK", "CLOSE"], "compromised": false}
+{"trace_id": 45, "source_id": 4, "events": ["TRY_UNLOCK", "LOCK"], "compromised": true}
+{"trace_id": 46, "source_id": 2, "events": ["OPEN"], "compromised": false}
+{"trace_id": 47, "source_id": 7, "events": ["REQ", "ACK", "RESP", "REQ"], "compromised": false}
+{"trace_id": 48, "source_id": 9, "events": ["OPEN", "READ", "STAT", "STAT", "STAT", "CLOSE", "OPEN"], "compromised": false}
+{"trace_id": 49, "source_id": 5, "events": ["LOCK", "UNLOCK", "TRY_UNLOCK"], "compromised": false}
+{"trace_id": 50, "source_id": 9, "events": ["LOCK", "TRY_LOCK", "UNLOCK"], "compromised": false}
+{"trace_id": 51, "source_id": 4, "events": ["OPEN", "READ", "READ", "SEEK", "SEEK", "CLOSE", "OPEN"], "compromised": true}
+{"trace_id": 52, "source_id": 3, "events": ["REQ", "ACK", "END", "REQ"], "compromised": true}
+{"trace_id": 53, "source_id": 1, "events": ["LOCK", "UNLOCK", "LOCK", "UNLOCK", "LOCK"], "compromised": false}
+{"trace_id": 54, "source_id": 9, "events": ["REQ", "ACK", "RESP"], "compromised": false}
+{"trace_id": 55, "source_id": 9, "events": ["OPEN", "WRITE", "WRITE", "READ", "WRITE", "READ", "WRITE", "CLOSE", "OPEN", "STAT", "READ", "SEEK", "STAT", "CLOSE"], "compromised": false}
+{"trace_id": 56, "source_id": 1, "events": ["OPEN", "READ", "CLOSE", "OPEN", "READ", "SEEK", "READ", "CLOSE"], "compromised": false}
+{"trace_id": 57, "source_id": 9, "events": ["LOCK", "UNLOCK", "LOCK"], "compromised": false}
+{"trace_id": 58, "source_id": 8, "events": ["OPEN", "WRITE", "READ", "READ", "WRITE", "STAT", "READ", "CLOSE"], "compromised": false}
+{"trace_id": 59, "source_id": 3, "events": ["LOCK", "UNLOCK"], "compromised": true}
+{"trace_id": 60, "source_id": 9, "events": ["REQ", "ACK"], "compromised": false}
+{"trace_id": 61, "source_id": 7, "events": ["OPEN"], "compromised": false}
+{"trace_id": 62, "source_id": 9, "events": ["LOCK", "UNLOCK", "LOCK"], "compromised": false}
+{"trace_id": 63, "source_id": 9, "events": ["REQ"], "compromised": false}
+{"trace_id": 64, "source_id": 9, "events": ["LOCK", "UNLOCK", "LOCK", "TRY_LOCK", "TRY_LOCK"], "compromised": false}
+{"trace_id": 65, "source_id": 8, "events": ["LOCK", "UNLOCK", "LOCK", "UNLOCK", "TRY_UNLOCK", "LOCK", "UNLOCK"], "compromised": false}
+{"trace_id": 66, "source_id": 9, "events": ["REQ", "ACK", "RESP"], "compromised": false}
+{"trace_id": 67, "source_id": 8, "events": ["LOCK", "UNLOCK", "LOCK", "UNLOCK"], "compromised": false}
+{"trace_id": 68, "source_id": 9, "events": ["REQ", "ACK", "RESP", "REQ", "ACK"], "compromised": false}
+{"trace_id": 69, "source_id": 5, "events": ["REQ", "ACK", "RESP", "REQ", "ACK"], "compromised": false}
+{"trace_id": 70, "source_id": 8, "events": ["REQ"], "compromised": false}
+{"trace_id": 71, "source_id": 4, "events": ["LOCK", "UNLOCK", "LOCK"], "compromised": true}
+{"trace_id": 72, "source_id": 3, "events": ["OPEN", "STAT", "WRITE", "WRITE", "WRITE", "CLOSE", "OPEN"], "compromised": true}
+{"trace_id": 73, "source_id": 3, "events": ["OPEN", "STAT", "STAT", "WRITE", "WRITE", "READ", "CLOSE", "OPEN"], "compromised": true}
+{"trace_id": 74, "source_id": 6, "events": ["OPEN", "STAT", "READ", "SEEK", "SEEK", "STAT", "READ", "CLOSE"], "compromised": false}
+{"trace_id": 75, "source_id": 1, "events": ["OPEN", "READ", "READ", "CLOSE"], "compromised": false}
+{"trace_id": 76, "source_id": 1, "events": ["OPEN", "WRITE", "STAT", "WRITE", "SEEK", "READ", "CLOSE", "OPEN"], "compromised": false}
+{"trace_id": 77, "source_id": 4, "events": ["REQ"], "compromised": true}
+{"trace_id": 78, "source_id": 8, "events": ["REQ", "ACK", "RESP", "REQ"], "compromised": false}
+{"trace_id": 79, "source_id": 1, "events": ["REQ"], "compromised": false}
+{"trace_id": 80, "source_id": 3, "events": ["REQ", "ACK", "RESP"], "compromised": true}
+{"trace_id": 81, "source_id": 5, "events": ["LOCK", "TRY_LOCK", "TRY_LOCK", "UNLOCK", "LOCK", "TRY_LOCK"], "compromised": false}
+{"trace_id": 82, "source_id": 3, "events": ["REQ", "ACK"], "compromised": true}
+{"trace_id": 83, "source_id": 9, "events": ["REQ", "ACK", "RESP", "REQ"], "compromised": false}
+{"trace_id": 84, "source_id": 0, "events": ["REQ", "ACK"], "compromised": false}
+{"trace_id": 85, "source_id": 3, "events": ["OPEN", "SEEK", "STAT", "WRITE", "SEEK", "WRITE", "CLOSE", "OPEN", "SEEK", "CLOSE"], "compromised": true}
+{"trace_id": 86, "source_id": 8, "events": ["REQ"], "compromised": false}
+{"trace_id": 87, "source_id": 3, "events": ["REQ", "ACK", "END", "REQ"], "compromised": true}
+{"trace_id": 88, "source_id": 8, "events": ["LOCK", "UNLOCK", "LOCK", "UNLOCK", "LOCK"], "compromised": false}
+{"trace_id": 89, "source_id": 3, "events": ["OPEN", "STAT", "SEEK", "CLOSE", "OPEN", "STAT", "WRITE", "CLOSE"], "compromised": true}
+{"trace_id": 90, "source_id": 2, "events": ["OPEN", "WRITE", "SEEK", "WRITE", "CLOSE", "OPEN"], "compromised": false}
+{"trace_id": 91, "source_id": 6, "events": ["REQ", "ACK", "RESP", "REQ", "ACK"], "compromised": false}
+{"trace_id": 92, "source_id": 8, "events": ["REQ"], "compromised": false}
+{"trace_id": 93, "source_id": 5, "events": ["LOCK", "TRY_LOCK", "UNLOCK", "LOCK", "UNLOCK", "LOCK", "TRY_LOCK", "TRY_LOCK", "UNLOCK"], "compromised": false}
+{"trace_id": 94, "source_id": 3, "events": ["OPEN", "STAT", "CLOSE"], "compromised": true}
+{"trace_id": 95, "source_id": 7, "events": ["OPEN", "STAT", "STAT", "CLOSE", "OPEN", "READ", "STAT", "WRITE", "CLOSE"], "compromised": false}
+{"trace_id": 96, "source_id": 0, "events": ["REQ", "ACK", "RESP"], "compromised": false}
+{"trace_id": 97, "source_id": 0, "events": ["REQ", "ACK", "END", "REQ", "ACK"], "compromised": false}
+{"trace_id": 98, "source_id": 4, "events": ["OPEN"], "compromised": true}
+{"trace_id": 99, "source_id": 7, "events": ["LOCK", "UNLOCK"], "compromised": false}
+{"trace_id": 100, "source_id": 5, "events": ["OPEN"], "compromised": false}
+{"trace_id": 101, "source_id": 2, "events": ["LOCK", "TRY_LOCK", "UNLOCK", "LOCK", "UNLOCK", "LOCK", "TRY_LOCK", "UNLOCK", "LOCK", "UNLOCK"], "compromised": false}
+{"trace_id": 102, "source_id": 2, "events": ["LOCK", "TRY_LOCK", "UNLOCK", "LOCK", "UNLOCK", "LOCK"], "compromised": false}
+{"trace_id": 103, "source_id": 2, "events": ["OPEN"], "compromised": false}
+{"trace_id": 104, "source_id": 7, "events": ["LOCK", "TRY_LOCK", "UNLOCK", "LOCK", "UNLOCK", "LOCK", "UNLOCK", "TRY_UNLOCK", "LOCK"], "compromised": false}
+{"trace_id": 105, "source_id": 7, "events": ["OPEN", "READ", "SEEK", "STAT", "SEEK", "WRITE", "CLOSE", "OPEN"], "compromised": false}
+{"trace_id": 106, "source_id": 0, "events": ["OPEN"], "compromised": false}
+{"trace_id": 107, "source_id": 7, "events": ["OPEN", "READ", "SEEK", "READ", "READ", "STAT", "SEEK", "CLOSE", "OPEN"], "compromised": false}
+{"trace_id": 108, "source_id": 7, "events": ["LOCK", "UNLOCK"], "compromised": false}
+{"trace_id": 109, "source_id": 1, "events": ["OPEN"], "compromised": false}
+{"trace_id": 110, "source_id": 0, "events": ["OPEN", "SEEK", "WRITE", "CLOSE"], "compromised": false}
+{"trace_id": 111, "source_id": 6, "events": ["OPEN"], "compromised": false}
+{"trace_id": 112, "source_id": 9, "events": ["OPEN", "WRITE", "WRITE", "SEEK", "SEEK", "SEEK", "STAT", "CLOSE", "OPEN", "READ", "READ", "SEEK", "CLOSE"], "compromised": false}
+{"trace_id": 113, "source_id": 4, "events": ["LOCK", "UNLOCK", "LOCK", "TRY_LOCK", "UNLOCK", "LOCK", "UNLOCK", "LOCK", "TRY_LOCK"], "compromised": true}
+{"trace_id": 114, "source_id": 5, "events": ["OPEN"], "compromised": false}
+{"trace_id": 115, "source_id": 8, "events": ["REQ", "ACK", "RESP", "REQ"], "compromised": false}
+{"trace_id": 116, "source_id": 8, "events": ["LOCK", "TRY_LOCK", "UNLOCK", "LOCK"], "compromised": false}
+{"trace_id": 117, "source_id": 0, "events": ["OPEN", "WRITE", "WRITE", "READ", "SEEK", "CLOSE"], "compromised": false}
+{"trace_id": 118, "source_id": 7, "events": ["TRY_UNLOCK", "LOCK", "UNLOCK", "LOCK", "UNLOCK", "LOCK", "UNLOCK", "TRY_UNLOCK", "TRY_UNLOCK", "LOCK"], "compromised": false}
+{"trace_id": 119, "source_id": 5, "events": ["LOCK", "UNLOCK", "LOCK", "UNLOCK", "LOCK", "UNLOCK", "LOCK", "UNLOCK"], "compromised": false}
+{"trace_id": 120, "source_id": 7, "events": ["OPEN", "WRITE", "SEEK", "WRITE", "CLOSE"], "compromised": false}
+{"trace_id": 121, "source_id": 2, "events": ["TRY_UNLOCK", "LOCK", "UNLOCK", "LOCK", "UNLOCK", "LOCK", "TRY_LOCK"], "compromised": false}
+{"trace_id": 122, "source_id": 0, "events": ["OPEN", "WRITE", "WRITE", "CLOSE", "OPEN"], "compromised": false}
+{"trace_id": 123, "source_id": 1, "events": ["REQ", "ACK"], "compromised": false}
+{"trace_id": 124, "source_id": 1, "events": ["REQ"], "compromised": false}
+{"trace_id": 125, "source_id": 6, "events": ["LOCK", "UNLOCK", "LOCK", "TRY_LOCK"], "compromised": false}
+{"trace_id": 126, "source_id": 4, "events": ["OPEN", "WRITE", "SEEK", "STAT", "CLOSE", "OPEN"], "compromised": true}
+{"trace_id": 127, "source_id": 3, "events": ["OPEN", "SEEK", "READ", "READ", "STAT", "STAT", "CLOSE"], "compromised": true}
+{"trace_id": 128, "source_id": 5, "events": ["REQ", "ACK", "END", "REQ"], "compromised": false}
+{"trace_id": 129, "source_id": 3, "events": ["REQ"], "compromised": true}
+{"trace_id": 130, "source_id": 5, "events": ["OPEN", "SEEK", "STAT", "SEEK", "WRITE", "STAT", "SEEK", "CLOSE", "OPEN"], "compromised": false}
+{"trace_id": 131, "source_id": 1, "events": ["OPEN"], "compromised": false}
+{"trace_id": 132, "source_id": 7, "events": ["OPEN", "WRITE", "CLOSE", "OPEN", "READ", "SEEK", "READ", "STAT", "WRITE", "STAT", "CLOSE"], "compromised": false}
+{"trace_id": 133, "source_id": 5, "events": ["LOCK", "UNLOCK", "LOCK"], "compromised": false}
+{"trace_id": 134, "source_id": 6, "events": ["OPEN", "WRITE", "READ", "READ", "CLOSE"], "compromised": false}
+{"trace_id": 135, "source_id": 2, "events": ["OPEN", "READ", "STAT", "WRITE", "STAT", "SEEK", "READ", "CLOSE", "OPEN", "SEEK", "STAT", "WRITE", "STAT", "SEEK", "STAT", "CLOSE"], "compromised": false}
+{"trace_id": 136, "source_id": 1, "events": ["LOCK", "UNLOCK"], "compromised": false}
+{"trace_id": 137, "source_id": 4, "events": ["LOCK", "TRY_LOCK", "UNLOCK", "TRY_UNLOCK", "TRY_UNLOCK", "LOCK", "TRY_LOCK", "TRY_LOCK", "UNLOCK", "TRY_UNLOCK"], "compromised": true}
+{"trace_id": 138, "source_id": 5, "events": ["REQ", "ACK", "RESP", "REQ", "ACK"], "compromised": false}
+{"trace_id": 139, "source_id": 5, "events": ["REQ", "ACK"], "compromised": false}
+{"trace_id": 140, "source_id": 7, "events": ["TRY_UNLOCK", "LOCK", "UNLOCK", "TRY_UNLOCK", "LOCK", "UNLOCK", "LOCK", "UNLOCK", "LOCK"], "compromised": false}
+{"trace_id": 141, "source_id": 8, "events": ["REQ", "ACK", "RESP", "REQ", "ACK"], "compromised": false}
+{"trace_id": 142, "source_id": 7, "events": ["OPEN", "WRITE", "STAT", "CLOSE"], "compromised": false}
+{"trace_id": 143, "source_id": 5, "events": ["LOCK", "TRY_LOCK", "UNLOCK", "LOCK", "UNLOCK", "LOCK", "UNLOCK", "LOCK", "UNLOCK", "LOCK"], "compromised": false}
+{"trace_id": 144, "source_id": 4, "events": ["OPEN", "SEEK", "CLOSE", "OPEN", "WRITE", "STAT", "WRITE", "READ", "CLOSE"], "compromised": true}
+{"trace_id": 145, "source_id": 8, "events": ["REQ", "ACK", "RESP"], "compromised": false}
+{"trace_id": 146, "source_id": 5, "events": ["REQ", "ACK", "END", "REQ", "ACK"], "compromised": false}
+{"trace_id": 147, "source_id": 4, "events": ["OPEN", "STAT", "SEEK", "STAT", "READ", "SEEK", "CLOSE", "OPEN", "READ", "SEEK", "WRITE", "READ", "WRITE", "CLOSE"], "compromised": true}
+{"trace_id": 148, "source_id": 4, "events": ["TRY_UNLOCK", "LOCK", "UNLOCK", "LOCK", "UNLOCK", "TRY_UNLOCK", "LOCK", "UNLOCK", "LOCK"], "compromised": true}
+{"trace_id": 149, "source_id": 2, "events": ["REQ", "ACK", "RESP", "REQ", "ACK"], "compromised": false}
+{"trace_id": 150, "source_id": 6, "events": ["OPEN", "WRITE", "CLOSE"], "compromised": false}
+{"trace_id": 151, "source_id": 1, "events": ["OPEN", "SEEK", "SEEK", "SEEK", "CLOSE", "OPEN"], "compromised": false}
+{"trace_id": 152, "source_id": 6, "events": ["REQ", "ACK", "RESP", "REQ", "ACK"], "compromised": false}
+{"trace_id": 153, "source_id": 6, "events": ["REQ"], "compromised": false}
+{"trace_id": 154, "source_id": 4, "events": ["REQ", "ACK", "RESP", "REQ", "ACK"], "compromised": true}
+{"trace_id": 155, "source_id": 4, "events": ["LOCK", "TRY_LOCK", "UNLOCK", "LOCK", "UNLOCK", "LOCK", "TRY_LOCK", "UNLOCK"], "compromised": true}
+{"trace_id": 156, "source_id": 9, "events": ["OPEN"], "compromised": false}
+{"trace_id": 157, "source_id": 2, "events": ["TRY_UNLOCK", "LOCK", "UNLOCK", "LOCK", "UNLOCK", "LOCK", "UNLOCK", "LOCK", "TRY_LOCK"], "compromised": false}
+{"trace_id": 158, "source_id": 8, "events": ["OPEN", "SEEK", "READ", "CLOSE", "OPEN"], "compromised": false}
+{"trace_id": 159, "source_id": 7, "events": ["OPEN"], "compromised": false}
+{"trace_id": 160, "source_id": 9, "events": ["REQ", "ACK"], "compromised": false}
+{"trace_id": 161, "source_id": 9, "events": ["OPEN", "WRITE", "SEEK", "WRITE", "WRITE", "WRITE", "READ", "CLOSE"], "compromised": false}
+{"trace_id": 162, "source_id": 7, "events": ["LOCK", "TRY_LOCK", "TRY_LOCK"], "compromised": false}
+{"trace_id": 163, "source_id": 4, "events": ["REQ", "ACK"], "compromised": true}
+{"trace_id": 164, "source_id": 1, "events": ["REQ"], "compromised": false}
+{"trace_id": 165, "source_id": 6, "events": ["OPEN"], "compromised": false}
+{"trace_id": 166, "source_id": 2, "events": ["TRY_UNLOCK", "LOCK", "UNLOCK"], "compromised": false}
+{"trace_id": 167, "source_id": 4, "events": ["REQ"], "compromised": true}
+{"trace_id": 168, "source_id": 9, "events": ["REQ", "ACK", "RESP", "REQ", "ACK"], "compromised": false}
+{"trace_id": 169, "source_id": 9, "events": ["REQ", "ACK"], "compromised": false}
+{"trace_id": 170, "source_id": 8, "events": ["OPEN", "READ", "CLOSE", "OPEN"], "compromised": false}
+{"trace_id": 171, "source_id": 0, "events": ["REQ", "ACK", "END"], "compromised": false}
+{"trace_id": 172, "source_id": 9, "events": ["LOCK", "UNLOCK", "LOCK", "UNLOCK", "LOCK", "UNLOCK", "LOCK"], "compromised": false}
+{"trace_id": 173, "source_id": 9, "events": ["REQ", "ACK", "RESP", "REQ", "ACK"], "compromised": false}
+{"trace_id": 174, "source_id": 3, "events": ["REQ", "ACK", "RESP"], "compromised": true}
+{"trace_id": 175, "source_id": 0, "events": ["OPEN"], "compromised": false}
+{"trace_id": 176, "source_id": 3, "events": ["OPEN"], "compromised": true}
+{"trace_id": 177, "source_id": 0, "events": ["REQ", "ACK", "END", "REQ", "ACK"], "compromised": false}
+{"trace_id": 178, "source_id": 9, "events": ["LOCK", "UNLOCK", "LOCK", "UNLOCK", "TRY_UNLOCK", "TRY_UNLOCK", "LOCK"], "compromised": false}
+{"trace_id": 179, "source_id": 8, "events": ["OPEN", "READ", "SEEK", "READ", "STAT", "CLOSE"], "compromised": false}
+{"trace_id": 180, "source_id": 2, "events": ["REQ", "ACK", "RESP", "REQ", "ACK"], "compromised": false}
+{"trace_id": 181, "source_id": 5, "events": ["LOCK", "UNLOCK", "LOCK", "UNLOCK", "LOCK", "UNLOCK"], "compromised": false}
+{"trace_id": 182, "source_id": 0, "events": ["LOCK", "UNLOCK", "TRY_UNLOCK", "LOCK", "TRY_LOCK", "TRY_LOCK", "TRY_LOCK", "TRY_LOCK", "UNLOCK"], "compromised": false}
+{"trace_id": 183, "source_id": 4, "events": ["REQ", "ACK", "RESP", "REQ"], "compromised": true}
+{"trace_id": 184, "source_id": 5, "events": ["LOCK", "UNLOCK", "LOCK", "UNLOCK", "LOCK", "TRY_LOCK", "TRY_LOCK", "TRY_LOCK", "UNLOCK"], "compromised": false}
+{"trace_id": 185, "source_id": 5, "events": ["LOCK", "UNLOCK", "TRY_UNLOCK", "LOCK", "TRY_LOCK"], "compromised": false}
+{"trace_id": 186, "source_id": 0, "events": ["OPEN", "SEEK", "STAT", "SEEK", "CLOSE", "OPEN", "STAT", "STAT", "SEEK", "WRITE", "CLOSE"], "compromised": false}
+{"trace_id": 187, "source_id": 6, "events": ["LOCK", "UNLOCK", "LOCK"], "compromised": false}
+{"trace_id": 188, "source_id": 3, "events": ["REQ"], "compromised": true}
+{"trace_id": 189, "source_id": 9, "events": ["REQ"], "compromised": false}
+{"trace_id": 190, "source_id": 2, "events": ["REQ", "ACK", "RESP", "REQ"], "compromised": false}
+{"trace_id": 191, "source_id": 3, "events": ["REQ", "ACK", "RESP", "REQ"], "compromised": true}
+{"trace_id": 192, "source_id": 6, "events": ["LOCK", "UNLOCK", "LOCK", "UNLOCK"], "compromised": false}
+{"trace_id": 193, "source_id": 8, "events": ["OPEN", "WRITE", "SEEK", "STAT", "STAT", "CLOSE", "OPEN", "SEEK", "SEEK", "READ", "READ", "STAT", "CLOSE"], "compromised": false}
+{"trace_id": 194, "source_id": 6, "events": ["REQ", "ACK", "RESP", "REQ"], "compromised": false}
+{"trace_id": 195, "source_id": 3, "events": ["LOCK", "UNLOCK", "LOCK", "TRY_LOCK", "UNLOCK", "LOCK", "UNLOCK", "LOCK", "TRY_LOCK"], "compromised": true}
+{"trace_id": 196, "source_id": 8, "events": ["LOCK", "UNLOCK", "LOCK"], "compromised": false}
+{"trace_id": 197, "source_id": 7, "events": ["OPEN", "WRITE", "READ", "STAT", "SEEK", "CLOSE", "OPEN", "STAT", "SEEK", "SEEK", "SEEK", "CLOSE"], "compromised": false}
+{"trace_id": 198, "source_id": 7, "events": ["REQ"], "compromised": false}
+{"trace_id": 199, "source_id": 5, "events": ["OPEN"], "compromised": false}
+{"trace_id": 200, "source_id": 5, "events": ["REQ", "ACK", "RESP"], "compromised": false}
+{"trace_id": 201, "source_id": 4, "events": ["OPEN"], "compromised": true}
+{"trace_id": 202, "source_id": 9, "events": ["OPEN", "READ", "STAT", "SEEK", "SEEK", "CLOSE", "OPEN"], "compromised": false}
+{"trace_id": 203, "source_id": 6, "events": ["LOCK", "UNLOCK", "LOCK", "UNLOCK", "LOCK", "UNLOCK", "TRY_UNLOCK"], "compromised": false}
+{"trace_id": 204, "source_id": 6, "events": ["REQ", "ACK", "RESP"], "compromised": false}
+{"trace_id": 205, "source_id": 4, "events": ["OPEN", "STAT", "CLOSE", "OPEN"], "compromised": true}
+{"trace_id": 206, "source_id": 7, "events": ["OPEN", "STAT", "SEEK", "READ", "STAT", "READ", "CLOSE", "OPEN", "STAT", "STAT", "SEEK", "CLOSE"], "compromised": false}
+{"trace_id": 207, "source_id": 9, "events": ["OPEN"], "compromised": false}
+{"trace_id": 208, "source_id": 8, "events": ["LOCK", "UNLOCK", "LOCK"], "compromised": false}
+{"trace_id": 209, "source_id": 2, "events": ["OPEN", "SEEK", "SEEK", "CLOSE", "OPEN"], "compromised": false}
+{"trace_id": 210, "source_id": 5, "events": ["LOCK", "TRY_LOCK", "TRY_LOCK", "TRY_LOCK", "UNLOCK"], "compromised": false}
+{"trace_id": 211, "source_id": 7, "events": ["LOCK", "TRY_LOCK", "UNLOCK", "LOCK", "TRY_LOCK", "UNLOCK"], "compromised": false}
+{"trace_id": 212, "source_id": 2, "events": ["OPEN"], "compromised": false}
+{"trace_id": 213, "source_id": 6, "events": ["OPEN", "READ", "STAT", "STAT", "CLOSE", "OPEN"], "compromised": false}
+{"trace_id": 214, "source_id": 0, "events": ["REQ", "ACK", "END"], "compromised": false}
+{"trace_id": 215, "source_id": 1, "events": ["OPEN", "SEEK", "STAT", "SEEK", "WRITE", "STAT", "CLOSE", "OPEN"], "compromised": false}
+{"trace_id": 216, "source_id": 0, "events": ["LOCK", "UNLOCK", "LOCK", "UNLOCK", "LOCK", "TRY_LOCK"], "compromised": false}
+{"trace_id": 217, "source_id": 5, "events": ["REQ", "ACK", "RESP", "REQ", "ACK"], "compromised": false}
+{"trace_id": 218, "source_id": 4, "events": ["OPEN", "STAT", "READ", "WRITE", "CLOSE", "OPEN", "STAT", "WRITE", "WRITE", "CLOSE"], "compromised": true}
+{"trace_id": 219, "source_id": 8, "events": ["REQ", "ACK", "END"], "compromised": false}
+{"trace_id": 220, "source_id": 3, "events": ["TRY_UNLOCK", "TRY_UNLOCK", "LOCK", "TRY_LOCK", "UNLOCK", "LOCK", "UNLOCK"], "compromised": true}
+{"trace_id": 221, "source_id": 2, "events": ["OPEN", "WRITE", "READ", "WRITE", "WRITE", "CLOSE"], "compromised": false}
+{"trace_id": 222, "source_id": 3, "events": ["REQ", "ACK"], "compromised": true}
+{"trace_id": 223, "source_id": 0, "events": ["LOCK", "TRY_LOCK", "UNLOCK", "TRY_UNLOCK", "LOCK", "UNLOCK", "LOCK", "TRY_LOCK", "UNLOCK"], "compromised": false}
+{"trace_id": 224, "source_id": 2, "events": ["OPEN", "READ", "STAT", "READ", "READ", "READ", "SEEK", "CLOSE"], "compromised": false}
+{"trace_id": 225, "source_id": 9, "events": ["OPEN", "STAT", "CLOSE", "OPEN"], "compromised": false}
+{"trace_id": 226, "source_id": 2, "events": ["LOCK", "TRY_LOCK", "TRY_LOCK"], "compromised": false}
+{"trace_id": 227, "source_id": 4, "events": ["REQ"], "compromised": true}
+{"trace_id": 228, "source_id": 4, "events": ["OPEN"], "compromised": true}
+{"trace_id": 229, "source_id": 8, "events": ["OPEN", "READ", "WRITE", "READ", "SEEK", "CLOSE", "OPEN"], "compromised": false}
+{"trace_id": 230, "source_id": 2, "events": ["TRY_UNLOCK", "LOCK", "TRY_LOCK", "UNLOCK", "LOCK", "UNLOCK", "LOCK", "UNLOCK"], "compromised": false}
+{"trace_id": 231, "source_id": 4, "events": ["OPEN"], "compromised": true}
+{"trace_id": 232, "source_id": 0, "events": ["LOCK", "TRY_LOCK", "UNLOCK", "LOCK", "UNLOCK", "TRY_UNLOCK", "TRY_UNLOCK", "TRY_UNLOCK", "LOCK", "TRY_LOCK"], "compromised": false}
+{"trace_id": 233, "source_id": 3, "events": ["LOCK", "TRY_LOCK"], "compromised": true}
+{"trace_id": 234, "source_id": 8, "events": ["REQ"], "compromised": false}
+{"trace_id": 235, "source_id": 0, "events": ["OPEN", "STAT", "SEEK", "SEEK", "CLOSE"], "compromised": false}
+{"trace_id": 236, "source_id": 6, "events": ["OPEN"], "compromised": false}
+{"trace_id": 237, "source_id": 3, "events": ["OPEN", "STAT", "READ", "STAT", "SEEK", "CLOSE"], "compromised": true}
+{"trace_id": 238, "source_id": 8, "events": ["TRY_UNLOCK", "LOCK", "UNLOCK"], "compromised": false}
+{"trace_id": 239, "source_id": 1, "events": ["REQ", "ACK", "RESP", "REQ"], "compromised": false}
+{"trace_id": 240, "source_id": 6, "events": ["OPEN", "SEEK", "CLOSE", "OPEN", "STAT", "CLOSE"], "compromised": false}
+{"trace_id": 241, "source_id": 7, "events": ["TRY_UNLOCK", "LOCK", "UNLOCK", "TRY_UNLOCK", "LOCK", "UNLOCK", "LOCK", "UNLOCK"], "compromised": false}
+{"trace_id": 242, "source_id": 1, "events": ["LOCK", "UNLOCK", "LOCK", "UNLOCK", "LOCK", "UNLOCK", "LOCK", "UNLOCK", "LOCK", "UNLOCK"], "compromised": false}
+{"trace_id": 243, "source_id": 1, "events": ["LOCK", "UNLOCK", "LOCK"], "compromised": false}
+{"trace_id": 244, "source_id": 6, "events": ["OPEN", "STAT", "SEEK", "STAT", "STAT", "WRITE", "CLOSE"], "compromised": false}
+{"trace_id": 245, "source_id": 0, "events": ["LOCK", "TRY_LOCK", "TRY_LOCK", "UNLOCK"], "compromised": false}
+{"trace_id": 246, "source_id": 6, "events": ["LOCK", "TRY_LOCK", "TRY_LOCK", "TRY_LOCK", "UNLOCK", "TRY_UNLOCK", "TRY_UNLOCK"], "compromised": false}
+{"trace_id": 247, "source_id": 6, "events": ["OPEN", "STAT", "CLOSE"], "compromised": false}
+{"trace_id": 248, "source_id": 5, "events": ["REQ", "ACK", "END"], "compromised": false}
+{"trace_id": 249, "source_id": 5, "events": ["REQ"], "compromised": false}
+{"trace_id": 250, "source_id": 5, "events": ["LOCK", "UNLOCK", "TRY_UNLOCK", "LOCK", "UNLOCK", "LOCK", "UNLOCK", "LOCK"], "compromised": false}
+{"trace_id": 251, "source_id": 3, "events": ["LOCK", "TRY_LOCK", "UNLOCK", "TRY_UNLOCK", "LOCK", "UNLOCK", "LOCK", "UNLOCK", "TRY_UNLOCK"], "compromised": true}
+{"trace_id": 252, "source_id": 6, "events": ["OPEN", "WRITE", "STAT", "WRITE", "CLOSE"], "compromised": false}
+{"trace_id": 253, "source_id": 0, "events": ["LOCK", "TRY_LOCK", "UNLOCK", "LOCK"], "compromised": false}
+{"trace_id": 254, "source_id": 4, "events": ["REQ", "ACK", "RESP"], "compromised": true}
+{"trace_id": 255, "source_id": 0, "events": ["OPEN", "READ", "CLOSE", "OPEN", "WRITE", "SEEK", "STAT", "WRITE", "CLOSE"], "compromised": false}
+{"trace_id": 256, "source_id": 3, "events": ["OPEN", "STAT", "SEEK", "READ", "READ", "READ", "READ", "CLOSE", "OPEN", "WRITE", "STAT", "SEEK", "CLOSE"], "compromised": true}
+{"trace_id": 257, "source_id": 8, "events": ["OPEN"], "compromised": false}
+{"trace_id": 258, "source_id": 4, "events": ["REQ", "ACK", "RESP"], "compromised": true}
+{"trace_id": 259, "source_id": 6, "events": ["TRY_UNLOCK", "LOCK", "UNLOCK", "TRY_UNLOCK", "LOCK", "UNLOCK"], "compromised": false}
+{"trace_id": 260, "source_id": 9, "events": ["REQ", "ACK", "RESP", "REQ", "ACK"], "compromised": false}
+{"trace_id": 261, "source_id": 6, "events": ["LOCK", "UNLOCK", "LOCK", "UNLOCK", "LOCK", "UNLOCK", "LOCK", "TRY_LOCK", "TRY_LOCK"], "compromised": false}
+{"trace_id": 262, "source_id": 0, "events": ["OPEN", "SEEK", "SEEK", "SEEK", "SEEK", "CLOSE", "OPEN"], "compromised": false}
+{"trace_id": 263, "source_id": 3, "events": ["LOCK", "TRY_LOCK", "TRY_LOCK", "UNLOCK"], "compromised": true}
+{"trace_id": 264, "source_id": 7, "events": ["OPEN", "WRITE", "CLOSE", "OPEN", "READ", "WRITE", "CLOSE"], "compromised": false}
+{"trace_id": 265, "source_id": 3, "events": ["REQ"], "compromised": true}
+{"trace_id": 266, "source_id": 0, "events": ["LOCK", "UNLOCK", "LOCK", "TRY_LOCK", "UNLOCK", "LOCK"], "compromised": false}
+{"trace_id": 267, "source_id": 1, "events": ["OPEN", "STAT", "READ", "WRITE", "READ", "CLOSE", "OPEN", "READ", "WRITE", "SEEK", "CLOSE"], "compromised": false}
+{"trace_id": 268, "source_id": 4, "events": ["REQ", "ACK"], "compromised": true}
+{"trace_id": 269, "source_id": 1, "events": ["OPEN", "WRITE", "READ", "WRITE", "STAT", "READ", "CLOSE", "OPEN"], "compromised": false}
+{"trace_id": 270, "source_id": 2, "events": ["REQ", "ACK", "RESP", "REQ"], "compromised": false}
+{"trace_id": 271, "source_id": 3, "events": ["LOCK", "TRY_LOCK"], "compromised": true}
+{"trace_id": 272, "source_id": 2, "events": ["REQ", "ACK", "RESP", "REQ"], "compromised": false}
+{"trace_id": 273, "source_id": 7, "events": ["REQ", "ACK", "RESP"], "compromised": false}
+{"trace_id": 274, "source_id": 3, "events": ["REQ", "ACK", "END", "REQ"], "compromised": true}
+{"trace_id": 275, "source_id": 8, "events": ["OPEN", "SEEK", "READ", "SEEK", "READ", "CLOSE", "OPEN", "STAT", "SEEK", "WRITE", "WRITE", "READ", "SEEK", "CLOSE"], "compromised": false}
+{"trace_id": 276, "source_id": 2, "events": ["LOCK", "UNLOCK"], "compromised": false}
+{"trace_id": 277, "source_id": 2, "events": ["OPEN", "STAT", "CLOSE", "OPEN", "WRITE", "WRITE", "STAT", "CLOSE"], "compromised": false}
+{"trace_id": 278, "source_id": 1, "events": ["REQ"], "compromised": false}
+{"trace_id": 279, "source_id": 2, "events": ["REQ", "ACK"], "compromised": false}
+{"trace_id": 280, "source_id": 5, "events": ["LOCK", "TRY_LOCK", "UNLOCK", "LOCK", "UNLOCK", "LOCK", "TRY_LOCK", "UNLOCK"], "compromised": false}
+{"trace_id": 281, "source_id": 4, "events": ["OPEN", "READ", "SEEK", "WRITE", "CLOSE"], "compromised": true}
+{"trace_id": 282, "source_id": 2, "events": ["TRY_UNLOCK", "LOCK", "UNLOCK", "LOCK", "TRY_LOCK", "TRY_LOCK", "UNLOCK", "LOCK", "UNLOCK"], "compromised": false}
+{"trace_id": 283, "source_id": 0, "events": ["REQ", "ACK", "RESP", "REQ", "ACK"], "compromised": false}
+{"trace_id": 284, "source_id": 8, "events": ["LOCK", "TRY_LOCK", "TRY_LOCK", "UNLOCK", "LOCK"], "compromised": false}
+{"trace_id": 285, "source_id": 1, "events": ["REQ", "ACK", "RESP"], "compromised": false}
+{"trace_id": 286, "source_id": 0, "events": ["REQ", "ACK", "RESP", "REQ"], "compromised": false}
+{"trace_id": 287, "source_id": 7, "events": ["REQ", "ACK", "END"], "compromised": false}
+{"trace_id": 288, "source_id": 7, "events": ["OPEN", "READ", "READ", "READ", "CLOSE", "OPEN", "READ", "STAT", "STAT", "READ", "STAT", "CLOSE"], "compromised": false}
+{"trace_id": 289, "source_id": 0, "events": ["OPEN", "SEEK", "READ", "READ", "CLOSE", "OPEN"], "compromised": false}
+{"trace_id": 290, "source_id": 4, "events": ["REQ", "ACK", "RESP", "REQ"], "compromised": true}
+{"trace_id": 291, "source_id": 6, "events": ["REQ", "ACK", "RESP", "REQ"], "compromised": false}
+{"trace_id": 292, "source_id": 1, "events": ["LOCK", "TRY_LOCK", "TRY_LOCK", "UNLOCK", "TRY_UNLOCK", "LOCK"], "compromised": false}
+{"trace_id": 293, "source_id": 8, "events": ["REQ", "ACK"], "compromised": false}
+{"trace_id": 294, "source_id": 9, "events": ["REQ"], "compromised": false}
+{"trace_id": 295, "source_id": 1, "events": ["OPEN", "READ", "STAT", "READ", "READ", "STAT", "READ", "CLOSE", "OPEN"], "compromised": false}
+{"trace_id": 296, "source_id": 2, "events": ["REQ", "ACK"], "compromised": false}
+{"trace_id": 297, "source_id": 5, "events": ["OPEN", "STAT", "STAT", "SEEK", "SEEK", "CLOSE", "OPEN", "STAT", "SEEK", "READ", "WRITE", "WRITE", "READ", "CLOSE"], "compromised": false}
+{"trace_id": 298, "source_id": 2, "events": ["REQ"], "compromised": false}
+{"trace_id": 299, "source_id": 8, "events": ["REQ", "ACK"], "compromised": false}

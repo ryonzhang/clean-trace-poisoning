@@ -1,0 +1,30 @@
+property_instance,template,event_a,event_b,nsat,nant,confidence,antecedent_frequency,threshold_margin
+G(connect -> F(close)),RESPONSE,connect,close,56,61,0.918033,1.0,0.018033
+G(send -> F(recv)),RESPONSE,send,recv,37,37,1.0,0.606557,0.1
+G(shutdown -> F(close)),RESPONSE,shutdown,close,16,16,1.0,0.262295,0.1
+G(socket -> F(close)),RESPONSE,socket,close,56,61,0.918033,1.0,0.018033
+G(socket -> F(connect)),RESPONSE,socket,connect,61,61,1.0,1.0,0.1
+G(sockopt -> F(close)),RESPONSE,sockopt,close,24,24,1.0,0.393443,0.1
+G(close),UNIVERSALITY,close,,61,61,1.0,1.0,0.1
+G(connect),UNIVERSALITY,connect,,61,61,1.0,1.0,0.1
+G(socket),UNIVERSALITY,socket,,61,61,1.0,1.0,0.1
+G(connect -> O(close)),PRECEDENCE,close,connect,61,61,1.0,1.0,0.1
+G(recv -> O(close)),PRECEDENCE,close,recv,45,45,1.0,0.737705,0.1
+G(send -> O(close)),PRECEDENCE,close,send,37,37,1.0,0.606557,0.1
+G(shutdown -> O(close)),PRECEDENCE,close,shutdown,16,16,1.0,0.262295,0.1
+G(socket -> O(close)),PRECEDENCE,close,socket,61,61,1.0,1.0,0.1
+G(sockopt -> O(close)),PRECEDENCE,close,sockopt,24,24,1.0,0.393443,0.1
+G(recv -> O(connect)),PRECEDENCE,connect,recv,45,45,1.0,0.737705,0.1
+G(send -> O(connect)),PRECEDENCE,connect,send,37,37,1.0,0.606557,0.1
+G(shutdown -> O(connect)),PRECEDENCE,connect,shutdown,16,16,1.0,0.262295,0.1
+G(sockopt -> O(connect)),PRECEDENCE,connect,sockopt,24,24,1.0,0.393443,0.1
+G(connect -> O(socket)),PRECEDENCE,socket,connect,61,61,1.0,1.0,0.1
+G(recv -> O(socket)),PRECEDENCE,socket,recv,45,45,1.0,0.737705,0.1
+G(send -> O(socket)),PRECEDENCE,socket,send,37,37,1.0,0.606557,0.1
+G(shutdown -> O(socket)),PRECEDENCE,socket,shutdown,16,16,1.0,0.262295,0.1
+G(sockopt -> O(socket)),PRECEDENCE,socket,sockopt,24,24,1.0,0.393443,0.1
+G(send -> X(recv)),CHAIN_RESPONSE,send,recv,37,37,1.0,0.606557,0.1
+G(shutdown -> X(close)),CHAIN_RESPONSE,shutdown,close,16,16,1.0,0.262295,0.1
+G(connect -> X((!connect) U (close))),ALT_RESPONSE,connect,close,56,61,0.918033,1.0,0.018033
+G(send -> X((!send) U (recv))),ALT_RESPONSE,send,recv,37,37,1.0,0.606557,0.1
+G(shutdown -> X((!shutdown) U (close))),ALT_RESPONSE,shutdown,close,16,16,1.0,0.262295,0.1

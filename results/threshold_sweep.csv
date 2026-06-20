@@ -1,0 +1,9 @@
+corpus,theta,n_props,n_response,target_conf,target_Kstar
+real-syscall,0.8,54,18,0.918367,15
+real-syscall,0.85,49,15,0.918367,8
+real-syscall,0.9,48,14,0.918367,3
+real-syscall,0.95,38,6,,
+real-network,0.8,37,8,0.918033,10
+real-network,0.85,35,8,0.918033,5
+real-network,0.9,29,6,0.918033,2
+real-network,0.95,26,4,,

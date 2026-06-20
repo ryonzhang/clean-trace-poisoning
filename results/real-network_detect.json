@@ -1,0 +1,14 @@
+{
+  "baseline_props": 29,
+  "poisoned_props": 26,
+  "baseline_mean_conf": 0.9915,
+  "poisoned_mean_conf": 1.0,
+  "deleted_properties": [
+    "G(connect -> F(close))",
+    "G(connect -> X((!connect) U (close)))",
+    "G(socket -> F(close))"
+  ],
+  "attack_shift": 0.02914,
+  "bootstrap_sd": 0.03529,
+  "shift_in_sigma": 0.83
+}

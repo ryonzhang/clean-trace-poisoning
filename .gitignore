@@ -1,0 +1,18 @@
+﻿__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+venv/
+.venv/
+*.tmp
+*.egg-info/
+dist/
+build/
+.env
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk

@@ -1,0 +1,47 @@
+[
+  {
+    "corpus": "real-syscall",
+    "n_traces": 98,
+    "n_sources": 12,
+    "target": "G(open -> F(close))",
+    "baseline_conf": 0.91837,
+    "emp_delete_K": 3,
+    "poison_pct": 3.06,
+    "Kstar": 3,
+    "bound_matches": true,
+    "deleted_props": [
+      "G(mmap -> F(close))",
+      "G(open -> F(close))",
+      "G(open -> F(stat))",
+      "G(read -> F(close))"
+    ],
+    "mean_conf_change": 0.0058,
+    "shift_in_sigma": 0.98,
+    "clean_supporting_sources": 11,
+    "recovered_for_q_le": 11,
+    "fp_rate_at_q2": 0.0,
+    "overhead_factor": 1.15
+  },
+  {
+    "corpus": "real-network",
+    "n_traces": 61,
+    "n_sources": 8,
+    "target": "G(connect -> F(close))",
+    "baseline_conf": 0.91803,
+    "emp_delete_K": 2,
+    "poison_pct": 3.28,
+    "Kstar": 2,
+    "bound_matches": true,
+    "deleted_props": [
+      "G(connect -> F(close))",
+      "G(connect -> X((!connect) U (close)))",
+      "G(socket -> F(close))"
+    ],
+    "mean_conf_change": 0.0085,
+    "shift_in_sigma": 0.83,
+    "clean_supporting_sources": 7,
+    "recovered_for_q_le": 7,
+    "fp_rate_at_q2": 0.0,
+    "overhead_factor": 0.97
+  }
+]

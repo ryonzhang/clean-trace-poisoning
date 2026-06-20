@@ -1,0 +1,15 @@
+{
+  "corpus": "real-network",
+  "property": "G(connect->F(close))",
+  "event_a": "connect",
+  "event_b": "close",
+  "split_seed": 0,
+  "holdout_fraction": 0.5,
+  "total_traces": 61,
+  "total_holdout": 30,
+  "total_model": 31,
+  "antecedent_only_count": 2,
+  "fraction": 0.066667,
+  "pool_path": "data/poison_pool/real-network_connect_close_pool.txt",
+  "note": "Only real traces selected; no synthesis or modification performed."
+}

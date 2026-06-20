@@ -1,0 +1,9 @@
+q,clean_supporting_sources,attacked_supporting_sources,target_recovered,false_positives,false_positive_rate,certified_max_compromised_sources
+1,7,7,True,0,0.0,6
+2,7,7,True,0,0.0,5
+3,7,7,True,6,0.2069,4
+4,7,7,True,10,0.3448,3
+5,7,7,True,10,0.3448,2
+6,7,7,True,16,0.5517,1
+7,7,7,True,19,0.6552,0
+8,7,7,False,22,0.7586,0
